@@ -123,7 +123,7 @@
       </div>
       <div class="why-split">
         <div class="why-image reveal">
-          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1000&q=80" alt="Lobby elegante del Hotel Fratelli en Aguascalientes" loading="lazy" />
+          <img src="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" alt="Lobby elegante del Hotel Fratelli en Aguascalientes" loading="lazy" />
         </div>
         <div class="why-list">
           <div class="why-card reveal">
