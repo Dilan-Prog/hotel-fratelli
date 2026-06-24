@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Hotel Fratelli Aguascalientes | Confort, Calidad y Descanso desde $780/noche')
+@section('title', 'Hotel Fratelli Aguascalientes | Confort, Calidad y Descanso desde $714.00/noche')
 
 @section('meta')
-  <meta name="description" content="Hotel Fratelli en Aguascalientes. 24 habitaciones confortables, recepción 24hrs, WiFi gratis y ubicación privilegiada a 5 min de la Feria de San Marcos. Reserva desde $780/noche." />
+  <meta name="description" content="Hotel Fratelli en Aguascalientes. 24 habitaciones confortables, recepción 24hrs, WiFi gratis y ubicación privilegiada a 5 min de la Feria de San Marcos. Reserva desde $714.00/noche." />
   <meta name="keywords" content="hotel aguascalientes, hoteles aguascalientes, hotel fratelli, hoteles cerca feria san marcos, hotel económico aguascalientes, hospedaje aguascalientes" />
   <link rel="canonical" href="https://www.hotelfratelli.com.mx/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Hotel Fratelli Aguascalientes | Desde $780/noche" />
+  <meta property="og:title" content="Hotel Fratelli Aguascalientes | Desde $714.00/noche" />
   <meta property="og:description" content="Hotel boutique en Aguascalientes. Confort, calidad y descanso. A 5 minutos de la Feria de San Marcos. Recepción 24hrs, WiFi gratis." />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/" />
   <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
@@ -16,7 +16,7 @@
   <meta property="og:site_name" content="Hotel Fratelli" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Hotel Fratelli Aguascalientes | Desde $780/noche" />
+  <meta name="twitter:title" content="Hotel Fratelli Aguascalientes | Desde $714.00/noche" />
   <meta name="twitter:description" content="Hotel boutique en Aguascalientes. Confort, calidad y descanso. A 5 min de la Feria de San Marcos." />
   <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
 
@@ -43,8 +43,7 @@
     "amenityFeature": [
       { "@type": "LocationFeatureSpecification", "name": "WiFi gratuito", "value": true },
       { "@type": "LocationFeatureSpecification", "name": "Recepción 24 horas", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Terraza", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Estacionamiento", "value": true }
+      { "@type": "LocationFeatureSpecification", "name": "Balcón", "value": true }
     ],
     "numberOfRooms": 24,
     "checkinTime": "14:00",
@@ -97,9 +96,9 @@
     <div class="container hero-inner">
       <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
       <h1>Hotel Fratelli Aguascalientes — Confort, Calidad y <em>Descanso</em></h1>
-      <p class="hero-sub">24 habitaciones cuidadosamente diseñadas a 5 minutos de la Feria de San Marcos. Recepción 24 horas, WiFi gratuito y vistas a la ciudad. Tarifas desde MXN $780/noche.</p>
+      <p class="hero-sub">24 habitaciones cuidadosamente diseñadas a 5 minutos de la Feria de San Marcos. Recepción 24 horas, WiFi gratuito y vistas a la ciudad. Tarifas desde MXN $714.00/noche.</p>
       <div class="hero-cta">
-        <a href="{{ url('habitaciones/index.html') }}" class="btn btn-gold" title="Ver habitaciones">Ver habitaciones</a>
+        <a href="{{ route('habitaciones.index') }}" class="btn btn-gold" title="Ver habitaciones">Ver habitaciones</a>
         <a href="https://wa.me/524492196201" class="btn btn-outline" title="Contactar por WhatsApp" target="_blank" rel="noopener">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3 4.8 4.2 1.7.7 2.3.8 3.1.7.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
           Contactar por WhatsApp
@@ -109,7 +108,7 @@
         <div><span class="k">24</span><span class="v">Habitaciones</span></div>
         <div><span class="k">24h</span><span class="v">Recepción</span></div>
         <div><span class="k">5 min</span><span class="v">Feria San Marcos</span></div>
-        <div><span class="k">$780</span><span class="v">Desde / noche</span></div>
+        <div><span class="k">$714</span><span class="v">Desde / noche</span></div>
       </div>
     </div>
   </header>
@@ -145,14 +144,14 @@
             <div class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 9a16 16 0 0120 0"/><path d="M5 12a12 12 0 0114 0"/><path d="M8.5 15a8 8 0 017 0"/><circle cx="12" cy="18" r="1" fill="currentColor"/></svg></div>
             <div>
               <h3>WiFi gratis en todo el hotel</h3>
-              <p>Conexión de alta velocidad en habitaciones, lobby y terraza. Trabaja o conéctate con los tuyos.</p>
+              <p>Conexión de alta velocidad en habitaciones, lobby y balcón. Trabaja o conéctate con los tuyos.</p>
             </div>
           </div>
           <div class="why-card reveal">
             <div class="why-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20"/><path d="M16 6H10a3 3 0 000 6h4a3 3 0 010 6H8"/></svg></div>
             <div>
               <h3>Precio accesible</h3>
-              <p>Calidad boutique con tarifas honestas: desde MXN $780 la noche con todo lo esencial incluido.</p>
+              <p>Calidad boutique con tarifas honestas: desde MXN $714.00 la noche con todo lo esencial incluido.</p>
             </div>
           </div>
         </div>
@@ -179,8 +178,8 @@
             <h3>Sencilla</h3>
             <p>Cama matrimonial, espacio funcional y luz natural. Ideal para viajeros de negocios.</p>
             <div class="room-feats"><span>1 matrimonial</span><span>WiFi</span><span>TV</span></div>
-            <div class="room-price"><span class="from">Desde</span><span class="amount">$780</span><span class="unit">MXN / noche</span></div>
-            <a href="{{ url('habitaciones/sencilla.html') }}" class="room-cta" data-room-cta data-room="Sencilla" title="Ver Habitación Sencilla">Ver habitación</a>
+            <div class="room-price"><span class="from">Desde</span><span class="amount">$714.00</span><span class="unit">MXN / noche</span></div>
+            <a href="{{ route('habitaciones.sencilla') }}" class="room-cta" data-room-cta data-room="Sencilla" title="Ver Habitación Sencilla">Ver habitación</a>
           </div>
         </article>
 
@@ -193,8 +192,8 @@
             <h3>Doble</h3>
             <p>Dos camas individuales o una matrimonial king. Perfecta para amigos o familia compacta.</p>
             <div class="room-feats"><span>2 camas</span><span>WiFi</span><span>Escritorio</span></div>
-            <div class="room-price"><span class="from">Desde</span><span class="amount">$980</span><span class="unit">MXN / noche</span></div>
-            <a href="{{ url('habitaciones/doble.html') }}" class="room-cta" data-room-cta data-room="Doble" title="Ver Habitación Doble">Ver habitación</a>
+            <div class="room-price"><span class="from">Desde</span><span class="amount">$952.00</span><span class="unit">MXN / noche</span></div>
+            <a href="{{ route('habitaciones.doble') }}" class="room-cta" data-room-cta data-room="Doble (camas separadas)" title="Ver Habitación Doble">Ver habitación</a>
           </div>
         </article>
 
@@ -206,23 +205,23 @@
           <div class="room-body">
             <h3>Suite Jr</h3>
             <p>Sala de estar separada, vista a la ciudad y baño en mármol. El equilibrio entre espacio y precio.</p>
-            <div class="room-feats"><span>King</span><span>Sala</span><span>Vista ciudad</span></div>
-            <div class="room-price"><span class="from">Desde</span><span class="amount">$1,490</span><span class="unit">MXN / noche</span></div>
-            <a href="{{ url('habitaciones/suite-jr.html') }}" class="room-cta" data-room-cta data-room="Suite Jr" title="Ver Suite Jr">Ver habitación</a>
+            <div class="room-feats"><span>Queen</span><span>Sala</span><span>Vista ciudad</span></div>
+            <div class="room-price"><span class="from">Desde</span><span class="amount">$892.50</span><span class="unit">MXN / noche</span></div>
+            <a href="{{ route('habitaciones.suite-jr') }}" class="room-cta" data-room-cta data-room="Suite Jr" title="Ver Suite Jr">Ver habitación</a>
           </div>
         </article>
 
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Premium</span>
-            <img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}" alt="Master Suite con cama king, Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}" alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" loading="lazy" />
           </div>
           <div class="room-body">
-            <h3>Master Suite</h3>
-            <p>Nuestra suite insignia con jacuzzi, sala lounge y acceso a la terraza con vistas panorámicas.</p>
-            <div class="room-feats"><span>King</span><span>Jacuzzi</span><span>Terraza</span></div>
-            <div class="room-price"><span class="from">Desde</span><span class="amount">$2,290</span><span class="unit">MXN / noche</span></div>
-            <a href="{{ url('habitaciones/master-suite.html') }}" class="room-cta" data-room-cta data-room="Master Suite" title="Ver Master Suite">Ver habitación</a>
+            <h3>Máster Suite</h3>
+            <p>Nuestra suite insignia con sala lounge y acceso a balcón con vistas panorámicas.</p>
+            <div class="room-feats"><span>King</span><span>Balcón</span></div>
+            <div class="room-price"><span class="from">Desde</span><span class="amount">$952.00</span><span class="unit">MXN / noche</span></div>
+            <a href="{{ route('habitaciones.master-suite') }}" class="room-cta" data-room-cta data-room="Máster Suite" title="Ver Máster Suite">Ver habitación</a>
           </div>
         </article>
 
@@ -246,8 +245,8 @@
         </div>
         <div class="service reveal">
           <div class="service-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21v-6h6v6"/></svg></div>
-          <h3>Terraza panorámica</h3>
-          <p>Disfruta el atardecer de Aguascalientes desde nuestra terraza con vistas abiertas a la ciudad.</p>
+          <h3>Balcón panorámico</h3>
+          <p>Disfruta el atardecer de Aguascalientes desde nuestro balcón con vistas abiertas a la ciudad.</p>
         </div>
         <div class="service reveal">
           <div class="service-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/></svg></div>
@@ -258,11 +257,6 @@
           <div class="service-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
           <h3>Recepción 24h</h3>
           <p>Personal disponible las 24 horas para check-in, check-out y cualquier necesidad.</p>
-        </div>
-        <div class="service reveal">
-          <div class="service-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="9" rx="1.5"/><path d="M6 11V7a3 3 0 013-3h6a3 3 0 013 3v4"/><circle cx="8" cy="16" r="1.2" fill="currentColor"/><circle cx="16" cy="16" r="1.2" fill="currentColor"/></svg></div>
-          <h3>Estacionamiento</h3>
-          <p>Espacio seguro para tu vehículo durante toda tu estancia, sin cargo adicional.</p>
         </div>
         <div class="service reveal">
           <div class="service-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 18v-6a3 3 0 013-3h12a3 3 0 013 3v6"/><path d="M3 18h18"/><path d="M7 9V7a2 2 0 012-2h6a2 2 0 012 2v2"/></svg></div>
@@ -348,7 +342,7 @@
           <article class="carousel-card">
             <div class="review">
               <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
-              <p class="review-text">Vine por trabajo y terminé recomendándolo a todo el equipo. La relación calidad-precio es excelente, el WiFi es estable y la terraza es un plus para terminar el día. Volveré en mi próxima visita a Aguascalientes.</p>
+              <p class="review-text">Vine por trabajo y terminé recomendándolo a todo el equipo. La relación calidad-precio es excelente, el WiFi es estable y el balcón es un plus para terminar el día. Volveré en mi próxima visita a Aguascalientes.</p>
               <div class="reviewer"><div class="avatar" aria-hidden="true">JC</div><div class="reviewer-info"><div class="name">Jorge Cervantes</div><div class="date">Hace 1 mes</div></div><div class="review-source">Google</div></div>
             </div>
           </article>
@@ -356,7 +350,7 @@
           <article class="carousel-card">
             <div class="review">
               <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
-              <p class="review-text">Nos quedamos durante la Feria de San Marcos y fue la mejor decisión. Cinco minutos en auto y de regreso un descanso real. La Master Suite con jacuzzi vale cada peso. Atención de 10.</p>
+              <p class="review-text">Nos quedamos durante la Feria de San Marcos y fue la mejor decisión. Cinco minutos en auto y de regreso un descanso real. La Máster Suite vale cada peso. Atención de 10.</p>
               <div class="reviewer"><div class="avatar" aria-hidden="true">AL</div><div class="reviewer-info"><div class="name">Andrea López</div><div class="date">Hace 3 meses</div></div><div class="review-source">Booking</div></div>
             </div>
           </article>
@@ -364,7 +358,7 @@
           <article class="carousel-card">
             <div class="review">
               <div class="stars" aria-label="4 de 5 estrellas">★★★★☆</div>
-              <p class="review-text">Buena ubicación, habitaciones limpias y muy buen desayuno (lo pedimos en habitación). El estacionamiento se llenó rápido, pero el personal nos ayudó a acomodar el auto. Volveremos.</p>
+              <p class="review-text">Buena ubicación, habitaciones limpias y muy buen desayuno (lo pedimos en habitación). Volveremos.</p>
               <div class="reviewer"><div class="avatar" aria-hidden="true">RD</div><div class="reviewer-info"><div class="name">Ricardo Dávila</div><div class="date">Hace 1 mes</div></div><div class="review-source">Google</div></div>
             </div>
           </article>
@@ -372,7 +366,7 @@
           <article class="carousel-card">
             <div class="review">
               <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
-              <p class="review-text">Lo mejor: la atención. Desde el check-in nos sentimos en familia. Habitación amplia, baño impecable y la terraza con la vista de la ciudad es algo que no olvidaremos. Súper recomendado.</p>
+              <p class="review-text">Lo mejor: la atención. Desde el check-in nos sentimos en familia. Habitación amplia, baño impecable y el balcón con la vista de la ciudad es algo que no olvidaremos. Súper recomendado.</p>
               <div class="reviewer"><div class="avatar" aria-hidden="true">SP</div><div class="reviewer-info"><div class="name">Sofía Padilla</div><div class="date">Hace 2 meses</div></div><div class="review-source">Booking</div></div>
             </div>
           </article>
@@ -453,7 +447,13 @@
             <div class="field"><label for="roomType">Tipo de habitación</label>
               <select id="roomType" name="roomType">
                 <option value="">Selecciona...</option>
-                <option>Sencilla</option><option>Doble</option><option>Suite Jr</option><option>Master Suite</option>
+                <option value="Sencilla">Sencilla — $714.00 MXN</option>
+                <option value="Doble (cama matrimonial)">Doble (cama matrimonial) — $833.00 MXN</option>
+                <option value="Doble (camas separadas)">Doble (camas separadas) — $952.00 MXN</option>
+                <option value="Suite Jr">Suite Jr — $892.50 MXN</option>
+                <option value="Máster Suite">Máster Suite — $952.00 MXN</option>
+                <option value="Triple">Triple — $1,249.50 MXN</option>
+                <option value="Cuádruple">Cuádruple — $1,606.50 MXN</option>
               </select>
             </div>
           </div>

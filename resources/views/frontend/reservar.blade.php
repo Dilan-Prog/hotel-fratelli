@@ -3,18 +3,18 @@
 @section('title', 'Reservar Habitación | Hotel Fratelli Aguascalientes')
 
 @section('meta')
-  <meta name="description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $780 MXN/noche." />
+  <meta name="description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $714.00 MXN/noche." />
   <link rel="canonical" href="https://www.hotelfratelli.com.mx/reservar.html" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Reservar Habitación | Hotel Fratelli Aguascalientes" />
-  <meta property="og:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $780 MXN/noche." />
+  <meta property="og:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $714.00 MXN/noche." />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/reservar.html" />
   <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Reservar Habitación | Hotel Fratelli Aguascalientes" />
-  <meta name="twitter:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $780 MXN/noche." />
+  <meta name="twitter:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $714.00 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <script type="application/ld+json">
 {
@@ -53,7 +53,13 @@
             <div class="field"><label for="roomType">Tipo de habitación</label>
               <select id="roomType" name="roomType">
                 <option value="">Selecciona...</option>
-                <option>Sencilla</option><option>Doble</option><option>Suite Jr</option><option>Master Suite</option>
+                <option value="Sencilla">Sencilla — $714.00 MXN</option>
+                <option value="Doble (cama matrimonial)">Doble (cama matrimonial) — $833.00 MXN</option>
+                <option value="Doble (camas separadas)">Doble (camas separadas) — $952.00 MXN</option>
+                <option value="Suite Jr">Suite Jr — $892.50 MXN</option>
+                <option value="Máster Suite">Máster Suite — $952.00 MXN</option>
+                <option value="Triple">Triple — $1,249.50 MXN</option>
+                <option value="Cuádruple">Cuádruple — $1,606.50 MXN</option>
               </select>
             </div>
           </div>

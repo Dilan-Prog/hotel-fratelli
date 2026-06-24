@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>@yield('title', 'Hotel Fratelli Aguascalientes | Confort, Calidad y Descanso desde $780/noche')</title>
+  <title>@yield('title', 'Hotel Fratelli Aguascalientes | Confort, Calidad y Descanso desde $714.00/noche')</title>
   @yield('meta')
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Hotel Fratelli" />

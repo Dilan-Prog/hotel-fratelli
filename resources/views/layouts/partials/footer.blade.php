@@ -12,15 +12,18 @@
       </div>
       <div class="footer-col"><h4>Navegación</h4><ul>
         <li><a href="{{ route('home') }}">Inicio</a></li>
-        <li><a href="{{ url('habitaciones/index.html') }}">Habitaciones</a></li>
+        <li><a href="{{ route('habitaciones.index') }}">Habitaciones</a></li>
         <li><a href="{{ route('reservar') }}">Reservar</a></li>
         <li><a href="{{ route('contacto') }}">Contacto</a></li>
       </ul></div>
       <div class="footer-col"><h4>Habitaciones</h4><ul>
-        <li><a href="{{ url('habitaciones/sencilla.html') }}">Sencilla</a></li>
-        <li><a href="{{ url('habitaciones/doble.html') }}">Doble</a></li>
-        <li><a href="{{ url('habitaciones/suite-jr.html') }}">Suite Jr</a></li>
-        <li><a href="{{ url('habitaciones/master-suite.html') }}">Master Suite</a></li>
+        <li><a href="{{ route('habitaciones.sencilla') }}">Sencilla</a></li>
+        <li><a href="{{ route('habitaciones.doble-matrimonial') }}">Doble (matrimonial)</a></li>
+        <li><a href="{{ route('habitaciones.doble') }}">Doble (separadas)</a></li>
+        <li><a href="{{ route('habitaciones.suite-jr') }}">Suite Jr</a></li>
+        <li><a href="{{ route('habitaciones.master-suite') }}">Máster Suite</a></li>
+        <li><a href="{{ route('habitaciones.triple') }}">Triple</a></li>
+        <li><a href="{{ route('habitaciones.cuadruple') }}">Cuádruple</a></li>
       </ul></div>
       @hasSection('footer-fourth-column')
         @yield('footer-fourth-column')

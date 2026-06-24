@@ -6,7 +6,7 @@
     </a>
     <ul class="nav-menu" id="navMenu">
       <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}" title="Inicio">Inicio</a></li>
-      <li><a href="{{ url('habitaciones/index.html') }}" title="Ver habitaciones">Habitaciones</a></li>
+      <li><a href="{{ route('habitaciones.index') }}" class="{{ request()->routeIs('habitaciones.*') ? 'active' : '' }}" title="Ver habitaciones">Habitaciones</a></li>
       <li><a href="{{ route('home') }}#servicios" title="Servicios">Servicios</a></li>
       <li><a href="{{ route('home') }}#ubicacion" title="Ubicación">Ubicación</a></li>
       <li><a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'active' : '' }}" title="Contacto">Contacto</a></li>
