@@ -9,13 +9,13 @@
   <meta property="og:title" content="Reservar Habitación | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $780 MXN/noche." />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/reservar.html" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" />
+  <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Reservar Habitación | Hotel Fratelli Aguascalientes" />
   <meta name="twitter:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $780 MXN/noche." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" />
+  <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -27,7 +27,7 @@
 
 @section('content')
   <header class="hero hero-small">
-    <div class="hero-bg" aria-hidden="true"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" alt="Reserva tu habitación en Hotel Fratelli" /></div>
+    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" alt="Reserva tu habitación en Hotel Fratelli" /></div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">Confirmación en menos de 2h</span>
       <h1>Reserva tu habitación en <em>Hotel Fratelli</em></h1>

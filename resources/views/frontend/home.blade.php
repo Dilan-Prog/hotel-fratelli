@@ -11,14 +11,14 @@
   <meta property="og:title" content="Hotel Fratelli Aguascalientes | Desde $780/noche" />
   <meta property="og:description" content="Hotel boutique en Aguascalientes. Confort, calidad y descanso. A 5 minutos de la Feria de San Marcos. Recepción 24hrs, WiFi gratis." />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" />
+  <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hotel Fratelli Aguascalientes | Desde $780/noche" />
   <meta name="twitter:description" content="Hotel boutique en Aguascalientes. Confort, calidad y descanso. A 5 min de la Feria de San Marcos." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" />
+  <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
 
   <script type="application/ld+json">
   {
@@ -72,7 +72,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Hotel Fratelli",
-    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80",
+    "image": "{{ asset('images/Habitación22/Habitacion22-25.jpg') }}",
     "telephone": "+524492196201",
     "address": {
       "@type": "PostalAddress",
@@ -92,7 +92,7 @@
   <!-- HERO -->
   <header class="hero" id="inicio">
     <div class="hero-bg" aria-hidden="true">
-      <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" alt="Habitación elegante Hotel Fratelli Aguascalientes" />
+      <img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" alt="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes" />
     </div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
@@ -173,7 +173,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">17 disponibles</span>
-            <img src="https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80" alt="Habitación sencilla Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" alt="Habitación sencilla Hotel Fratelli Aguascalientes" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Sencilla</h3>
@@ -187,7 +187,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Popular</span>
-            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80" alt="Habitación doble Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación21/Habitacion21-20.jpg') }}" alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Doble</h3>
@@ -201,7 +201,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Recomendada</span>
-            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80" alt="Suite Junior Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación19/Habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Suite Jr</h3>
@@ -215,7 +215,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Premium</span>
-            <img src="https://images.unsplash.com/photo-1631049552240-59c37f38802b?w=800&q=80" alt="Master Suite Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}" alt="Master Suite con cama king, Hotel Fratelli Aguascalientes" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Master Suite</h3>
@@ -308,7 +308,7 @@
         </div>
 
         <div class="map-frame reveal" role="img" aria-label="Mapa de Aguascalientes">
-          <img src="https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=1000&q=80" alt="Vista aérea de Aguascalientes, México" loading="lazy" />
+          <img src="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" loading="lazy" />
           <div class="map-pin" aria-hidden="true">
             <div class="label">Hotel Fratelli</div>
             <div class="dot"></div>
@@ -319,7 +319,7 @@
   </section>
 
   <!-- REVIEWS — Carousel -->
-  <section class="reviews reviews-dark" id="resenas" aria-labelledby="rev-title" style="--rev-bg: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&q=80');">
+  <section class="reviews reviews-dark" id="resenas" aria-labelledby="rev-title" style="--rev-bg: url('{{ asset('images/Arcoiris/Arcoiris-3.jpg') }}');">
     <div class="container">
       <div class="section-head center reveal">
         <span class="section-eyebrow">Lo que dicen de nosotros</span>

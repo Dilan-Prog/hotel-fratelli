@@ -67,7 +67,7 @@
         </div>
 
         <div class="map-frame reveal" role="img" aria-label="Mapa de Aguascalientes">
-          <img src="https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=1000&q=80" alt="Vista aérea de Aguascalientes, México" loading="lazy" />
+          <img src="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" loading="lazy" />
           <div class="map-pin" aria-hidden="true"><div class="label">Hotel Fratelli</div><div class="dot"></div></div>
         </div>
       </div>

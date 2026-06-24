@@ -9,13 +9,13 @@
   <meta property="og:title" content="Hoteles Cerca de la Feria de San Marcos | Hotel Fratelli — A 5 minutos" />
   <meta property="og:description" content="Hotel Fratelli es uno de los mejores hoteles cerca de la Feria de San Marcos en Aguascalientes. A solo 5 minutos del recinto ferial. Reserva desde $780 MXN/noche." />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos.html" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=1600&q=80" />
+  <meta property="og:image" content="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hoteles Cerca de la Feria de San Marcos | Hotel Fratelli — A 5 minutos" />
   <meta name="twitter:description" content="Hotel Fratelli es uno de los mejores hoteles cerca de la Feria de San Marcos en Aguascalientes. A solo 5 minutos del recinto ferial. Reserva desde $780 MXN/noche." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=1600&q=80" />
+  <meta name="twitter:image" content="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" />
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Hoteles cerca Feria San Marcos","item":"https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos.html"}]}
 </script>
@@ -23,7 +23,7 @@
 
 @section('content')
   <header class="hero hero-medium">
-    <div class="hero-bg" aria-hidden="true"><img src="https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=1600&q=80" alt="Aguascalientes — Hoteles cerca de la Feria de San Marcos" /></div>
+    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" /></div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">A 5 minutos del recinto ferial</span>
       <h1>Hotel a 5 Minutos de la <em>Feria de San Marcos</em>, Aguascalientes</h1>
