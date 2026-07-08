@@ -24,7 +24,7 @@
   @yield('content')
 
   @include('layouts.partials.footer')
-
+    
   <script src="{{ asset('assets/script.js') }}" defer></script>
   @stack('scripts')
 </body>

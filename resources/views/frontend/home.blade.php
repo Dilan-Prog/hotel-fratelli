@@ -5,7 +5,7 @@
 @section('meta')
   <meta name="description" content="Hotel Fratelli en Aguascalientes. 24 habitaciones confortables, recepción 24hrs, WiFi gratis y ubicación privilegiada a 5 min de la Feria de San Marcos. Reserva desde $714.00/noche." />
   <meta name="keywords" content="hotel aguascalientes, hoteles aguascalientes, hotel fratelli, hoteles cerca feria san marcos, hotel económico aguascalientes, hospedaje aguascalientes" />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/" />
+  <link rel="canonical" href="https://www.hotelfratelli.com.mx/">
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hotel Fratelli Aguascalientes | Desde $714.00/noche" />
@@ -91,7 +91,13 @@
   <!-- HERO -->
   <header class="hero" id="inicio">
     <div class="hero-bg" aria-hidden="true">
-      <img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" alt="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes" />
+      <img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}"
+      alt="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
+      title="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
+      loading="lazy"
+      fechtpriority="h
+      igh"
+      />
     </div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
