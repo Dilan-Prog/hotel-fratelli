@@ -4,11 +4,11 @@
 
 @section('meta')
   <meta name="description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes.html" />
+  <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hoteles Económicos en Aguascalientes | Hotel Fratelli desde $714.00/noche" />
   <meta property="og:description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
-  <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes.html" />
+  <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes" />
   <meta property="og:image" content="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
@@ -17,7 +17,31 @@
   <meta name="twitter:description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
   <meta name="twitter:image" content="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Hoteles económicos Aguascalientes","item":"https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes.html"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Hoteles económicos Aguascalientes","item":"https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes"}]}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué incluyen nuestras tarifas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WiFi gratuito en toda la propiedad — no es un extra que cobramos aparte. Recepción 24 horas — sin cargos por check-in tardío. Impuestos incluidos en la tarifa que publicamos. Acceso a balcón con vistas a la ciudad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Por qué somos económicos sin perder calidad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Somos un hotel boutique pequeño (24 habitaciones) que opera con eficiencia: sin amenidades innecesarias, sin costos hinchados, con un equipo cercano que conoce a sus huéspedes. Esa estructura nos permite ofrecer una experiencia de calidad a tarifas razonables. Además, nuestra ubicación en Fraccionamiento Las Américas nos permite estar cerca de los principales puntos de Aguascalientes (Centro Histórico, Feria de San Marcos, aeropuerto) sin pagar el sobreprecio de las zonas más turísticas."
+      }
+    }
+  ]
+}
 </script>
 @endsection
 

@@ -294,7 +294,6 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ============ SECTION BASE ============ */
 section { padding: 110px 0; position: relative; }
-section.section-tight { padding: 80px 0; }
 .section-head { max-width: 760px; margin-bottom: 64px; }
 .section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
 .section-head.center .section-eyebrow { justify-content: center; }
@@ -909,7 +908,8 @@ footer {
 }
 .gallery .g-thumb { border-radius: var(--r); overflow: hidden; }
 .gallery img { width: 100%; height: 100%; object-fit: cover; }
-.room-info h1 {
+.room-info h1,
+.room-info h2 {
   font-family: var(--serif);
   font-weight: 500;
   font-size: clamp(32px, 4.4vw, 52px);
@@ -917,7 +917,8 @@ footer {
   margin: 8px 0 18px;
   letter-spacing: -0.01em;
 }
-.room-info h1 em { font-style: italic; color: var(--gold); font-weight: 400; }
+.room-info h1 em,
+.room-info h2 em { font-style: italic; color: var(--gold); font-weight: 400; }
 .room-eyebrow {
   display: inline-flex; align-items: center; gap: 12px;
   color: var(--gold);
@@ -1072,7 +1073,6 @@ footer {
 
   /* ─ Base ─ */
   section { padding: 68px 0; }
-  section.section-tight { padding: 52px 0; }
   .container { padding: 0 18px; }
 
   /* ─ Botones: permitir wrap en pantallas pequeñas ─ */
@@ -1207,15 +1207,8 @@ footer {
 
   /* ─ Detalle de habitación ─ */
   .room-detail { padding-bottom: 72px; }
-  .room-detail[style] { padding-top: 100px !important; }
-  .room-detail .breadcrumbs[style] {
-    margin-left: -18px !important;
-    margin-right: -18px !important;
-    margin-top: -18px !important;
-    padding-left: 18px !important;
-    padding-right: 18px !important;
-  }
-  .room-info h1 { font-size: clamp(28px, 7vw, 44px); }
+  .room-info h1,
+  .room-info h2 { font-size: clamp(28px, 7vw, 44px); }
   .room-amenities { grid-template-columns: 1fr; gap: 8px; padding: 20px 0; }
   .price-card { flex-direction: column; align-items: flex-start; gap: 16px; }
   .price-card .price-amount { font-size: 36px; }
@@ -1258,7 +1251,6 @@ footer {
 /* ── TELÉFONO PEQUEÑO (≤ 430px) ── */
 @media (max-width: 430px) {
   section { padding: 56px 0; }
-  section.section-tight { padding: 44px 0; }
   .container { padding: 0 16px; }
 
   h2 { font-size: clamp(24px, 7.5vw, 34px); }
@@ -1305,13 +1297,6 @@ footer {
   .info-content .value { font-size: 14.5px; }
 
   /* Detalle habitación */
-  .room-detail[style] { padding-top: 90px !important; }
-  .room-detail .breadcrumbs[style] {
-    margin-left: -16px !important;
-    margin-right: -16px !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-  }
   .price-card { padding: 20px 18px; }
   .price-card .price-amount { font-size: 32px; }
   .room-amenity { font-size: 13.5px; }

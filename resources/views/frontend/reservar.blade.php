@@ -4,11 +4,11 @@
 
 @section('meta')
   <meta name="description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $714.00 MXN/noche." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/reservar.html" />
+  <link rel="canonical" href="https://www.hotelfratelli.com.mx/reservar" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Reservar Habitación | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Reserva tu habitación en Hotel Fratelli Aguascalientes. Confirmación en menos de 2 horas. WiFi gratis, recepción 24h, desde $714.00 MXN/noche." />
-  <meta property="og:url" content="https://www.hotelfratelli.com.mx/reservar.html" />
+  <meta property="og:url" content="https://www.hotelfratelli.com.mx/reservar" />
   <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
@@ -20,7 +20,7 @@
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Reservar","item":"https://www.hotelfratelli.com.mx/reservar.html"}]
+  "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Reservar","item":"https://www.hotelfratelli.com.mx/reservar"}]
 }
 </script>
 @endsection

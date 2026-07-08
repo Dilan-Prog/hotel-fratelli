@@ -28,7 +28,7 @@
 
       <div class="room-info reveal">
         <span class="room-eyebrow">Hotel Fratelli</span>
-        <h1>Habitación {!! $roomNameHtml !!}</h1>
+        <h2>Habitación {!! $roomNameHtml !!}</h2>
         <p class="desc">{{ $desc }}</p>
 
         <div class="room-amenities">

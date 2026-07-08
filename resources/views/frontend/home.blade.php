@@ -94,9 +94,8 @@
       <img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}"
       alt="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
       title="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
-      loading="lazy"
-      fechtpriority="h
-      igh"
+      fetchpriority="high"
+      loading="eager"
       />
     </div>
     <div class="container hero-inner">

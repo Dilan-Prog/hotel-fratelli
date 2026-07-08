@@ -8,6 +8,7 @@
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Hotel Fratelli" />
   <meta name="theme-color" content="#1A1A1A" />
+  <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
