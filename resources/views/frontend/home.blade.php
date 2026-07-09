@@ -1,23 +1,23 @@
 @extends('layouts.app')
 
-@section('title', 'Hotel Fratelli Aguascalientes | Confort, Calidad y Descanso desde $714.00/noche')
+@section('title', 'Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche')
 
 @section('meta')
-  <meta name="description" content="Hotel Fratelli en Aguascalientes. 24 habitaciones confortables, recepción 24hrs, WiFi gratis y ubicación privilegiada a 5 min de la Feria de San Marcos. Reserva desde $714.00/noche." />
+  <meta name="description" content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
   <meta name="keywords" content="hotel aguascalientes, hoteles aguascalientes, hotel fratelli, hoteles cerca feria san marcos, hotel económico aguascalientes, hospedaje aguascalientes" />
   <link rel="canonical" href="https://www.hotelfratelli.com.mx/">
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Hotel Fratelli Aguascalientes | Desde $714.00/noche" />
-  <meta property="og:description" content="Hotel boutique en Aguascalientes. Confort, calidad y descanso. A 5 minutos de la Feria de San Marcos. Recepción 24hrs, WiFi gratis." />
+  <meta property="og:title" content="Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche" />
+  <meta property="og:description" content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/" />
   <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Hotel Fratelli Aguascalientes | Desde $714.00/noche" />
-  <meta name="twitter:description" content="Hotel boutique en Aguascalientes. Confort, calidad y descanso. A 5 min de la Feria de San Marcos." />
+  <meta name="twitter:title" content="Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche" />
+  <meta name="twitter:description" content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
   <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
 
   <script type="application/ld+json">
@@ -100,8 +100,8 @@
     </div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
-      <h1>Hotel Fratelli Aguascalientes — Confort, Calidad y <em>Descanso</em></h1>
-      <p class="hero-sub">24 habitaciones cuidadosamente diseñadas a 5 minutos de la Feria de San Marcos. Recepción 24 horas, WiFi gratuito y vistas a la ciudad. Tarifas desde MXN $714.00/noche.</p>
+      <h1>Hotel Fratelli — Uno de los Mejores <em>Hoteles en Aguascalientes</em></h1>
+      <p class="hero-sub">Uno de los hoteles en Aguascalientes mejor ubicados: 24 habitaciones cuidadosamente diseñadas a 5 minutos de la Feria de San Marcos. Recepción 24 horas, WiFi gratuito y vistas a la ciudad. Tarifas desde MXN $714.00/noche.</p>
       <div class="hero-cta">
         <a href="{{ route('habitaciones.index') }}" class="btn btn-gold" title="Ver habitaciones">Ver habitaciones</a>
         <a href="https://wa.me/524492196201" class="btn btn-outline" title="Contactar por WhatsApp" target="_blank" rel="noopener">
@@ -123,7 +123,7 @@
     <div class="container">
       <div class="section-head reveal">
         <span class="section-eyebrow">Por qué elegirnos</span>
-        <h2 id="why-title">Una estancia que se siente <em>como en casa</em></h2>
+        <h2 id="why-title">Por qué somos uno de los mejores <em>hoteles en Aguascalientes</em></h2>
         <p class="section-sub">Cuatro razones por las que nuestros huéspedes regresan a Hotel Fratelli cada vez que visitan Aguascalientes.</p>
       </div>
       <div class="why-split">
@@ -277,8 +277,8 @@
     <div class="container">
       <div class="section-head reveal">
         <span class="section-eyebrow">Cómo llegar</span>
-        <h2 id="loc-title">Ubicación — Cerca de la <em>Feria de San Marcos</em></h2>
-        <p class="section-sub">En el corazón de Fraccionamiento Las Américas, a 5 minutos de la feria más importante de México.</p>
+        <h2 id="loc-title">A Minutos del Centro y de la <em>Feria de San Marcos</em></h2>
+        <p class="section-sub">Uno de los hoteles en Aguascalientes, México, mejor conectados: en el corazón de Fraccionamiento Las Américas, a 5 minutos de la feria más importante del país.</p>
       </div>
 
       <div class="location-grid">
@@ -439,7 +439,7 @@
       <div class="section-head reveal">
         <span class="section-eyebrow">Reserva tu estancia</span>
         <h2 id="contact-title">Reserva tu habitación en <em>Aguascalientes</em></h2>
-        <p class="section-sub">Envíanos tus fechas y un miembro de nuestro equipo te confirmará disponibilidad en menos de 2 horas.</p>
+        <p class="section-sub">Elegir entre los hoteles en Aguascalientes nunca fue tan fácil: envíanos tus fechas y un miembro de nuestro equipo te confirmará disponibilidad en menos de 2 horas.</p>
       </div>
       <div class="contact-grid">
         <form class="reserve reveal" id="reserveForm" novalidate>
