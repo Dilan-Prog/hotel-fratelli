@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>@yield('title', 'Hotel Fratelli Aguascalientes | Confort, Calidad y Descanso desde $714.00/noche')</title>
+  <title>@yield('title', 'Hotel Fratelli Aguascalientes | Reservas desde $714.00/noch')</title>
   @yield('meta')
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Hotel Fratelli" />
   <meta name="theme-color" content="#1A1A1A" />
-  <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any" />
+  <link rel="icon" type="image/png" href="{{ asset('images/favicon/favicon-16x16.png') }}" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ asset('images/favicon/favicon-32x32.png') }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ asset('images/favicon/favicon-48x48.png') }}" sizes="48x48" />
+  <link rel="apple-touch-icon" href="{{ asset('images/favicon/apple-touch-icon.png') }}" sizes="180x180" />
+  <link rel="icon" type="image/png" href="{{ asset('images/favicon/icon-192x192.png') }}" sizes="192x192" />
+  <link rel="icon" type="image/png" href="{{ asset('images/favicon/icon-512x512.png') }}" sizes="512x512" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +30,7 @@
   @yield('content')
 
   @include('layouts.partials.footer')
-    
+
   <script src="{{ asset('assets/script.js') }}" defer></script>
   @stack('scripts')
 </body>

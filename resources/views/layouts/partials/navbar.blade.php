@@ -1,8 +1,7 @@
 <nav class="navbar" id="navbar" aria-label="Navegación principal">
   <div class="container nav-inner">
     <a href="{{ route('home') }}" class="logo" title="Hotel Fratelli — Inicio">
-      <span class="logo-mark" aria-hidden="true">C</span>
-      <span class="logo-text"><span class="brand">FRATELLI</span><span class="sub">Hotel</span></span>
+      <img src="{{ asset('images/Logotipo/' . rawurlencode('Hotel Fratelli_Logo_Blanco_Color.png')) }}" alt="Hotel Fratelli" class="logo-img">
     </a>
     <ul class="nav-menu" id="navMenu">
       <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}" title="Inicio">Inicio</a></li>
