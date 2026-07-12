@@ -38,6 +38,7 @@ class GenerateSitemap extends Command
             ['path' => '/habitaciones/cuadruple', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/hoteles-economicos-aguascalientes', 'priority' => 0.8, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/hoteles-cerca-feria-san-marcos', 'priority' => 0.8, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
+            ['path' => '/hoteles-centro', 'priority' => 0.8, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/contacto', 'priority' => 0.6, 'changefreq' => Url::CHANGE_FREQUENCY_YEARLY],
             ['path' => '/reservar', 'priority' => 0.7, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/galeria', 'priority' => 0.5, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],

@@ -29,11 +29,12 @@
     "url": "https://www.hotelfratelli.com.mx",
     "telephone": "+524492196201",
     "email": "fratelli.hotel@gmail.com",
+    "image": "{{ asset('images/Habitación22/Habitacion22-25.jpg') }}",
     "priceRange": "$$$",
     "starRating": { "@type": "Rating", "ratingValue": "2" },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "República de Brasil 627",
+      "streetAddress": "República de Brasil 627, Fracc. Las Américas",
       "addressLocality": "Aguascalientes",
       "addressRegion": "Aguascalientes",
       "postalCode": "20230",
@@ -49,6 +50,7 @@
     "checkinTime": "14:00",
     "checkoutTime": "12:00",
     "openingHours": "Mo-Su 00:00-24:00",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "3.8", "reviewCount": "277" },
     "sameAs": [
       "https://www.facebook.com/HotelFratelli",
       "https://www.booking.com/hotel/mx/fratelli.html"
@@ -67,23 +69,45 @@
   </script>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "Hotel Fratelli",
-    "image": "{{ asset('images/Habitación22/Habitacion22-25.jpg') }}",
-    "telephone": "+524492196201",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "República de Brasil 627, Fracc. Las Américas",
-      "addressLocality": "Aguascalientes",
-      "addressRegion": "AGS",
-      "postalCode": "20230",
-      "addressCountry": "MX"
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿A qué hora es el check-in y el check-out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El check-in es a partir de las 14:00 horas y el check-out hasta las 12:00 horas. Nuestra recepción está disponible las 24 horas, así que si llegas antes o necesitas salir más tarde, escríbenos y con gusto revisamos disponibilidad."
+      }
     },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "3.8", "reviewCount": "277" }
-  }
-  </script>
+    {
+      "@type": "Question",
+      "name": "¿El hotel cuenta con estacionamiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Consulta disponibilidad de estacionamiento directamente con nosotros al reservar, por teléfono o WhatsApp — con gusto te confirmamos las opciones para tu vehículo antes de tu llegada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se aceptan mascotas en el Hotel Fratelli Aguascalientes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si viajas con una mascota, contáctanos antes de reservar para confirmar disponibilidad y condiciones. Así nos aseguramos de que tanto tú como ella tengan una buena estancia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo reservar directamente sin pagar comisión a OTAs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reserva por WhatsApp, teléfono o el formulario de esta página. Al reservar directo con nosotros no pagas comisiones de plataformas externas, obtienes la mejor tarifa disponible y confirmación en menos de 2 horas."
+      }
+    }
+  ]
+}
+</script>
 @endsection
 
 @section('content')
@@ -94,6 +118,8 @@
       <img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}"
       alt="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
       title="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
+      width="1024"
+      height="681"
       fetchpriority="high"
       loading="eager"
       />
@@ -123,12 +149,12 @@
     <div class="container">
       <div class="section-head reveal">
         <span class="section-eyebrow">Por qué elegirnos</span>
-        <h2 id="why-title">Por qué somos uno de los mejores <em>hoteles en Aguascalientes</em></h2>
+        <h2 id="why-title">Comodidades que hacen tu <em>estancia perfecta</em> en Aguascalientes</h2>
         <p class="section-sub">Cuatro razones por las que nuestros huéspedes regresan a Hotel Fratelli cada vez que visitan Aguascalientes.</p>
       </div>
       <div class="why-split">
         <div class="why-image reveal">
-          <img src="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" alt="Lobby elegante del Hotel Fratelli en Aguascalientes" loading="lazy" />
+          <img src="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" alt="Lobby elegante del Hotel Fratelli en Aguascalientes" width="1280" height="1224" loading="lazy" />
         </div>
         <div class="why-list">
           <div class="why-card reveal">
@@ -177,7 +203,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">17 disponibles</span>
-            <img src="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" alt="Habitación sencilla Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" alt="Habitación sencilla Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Sencilla</h3>
@@ -191,7 +217,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Popular</span>
-            <img src="{{ asset('images/Habitación21/Habitacion21-20.jpg') }}" alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación21/Habitacion21-20.jpg') }}" alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Doble</h3>
@@ -205,7 +231,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Recomendada</span>
-            <img src="{{ asset('images/Habitación19/Habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación19/Habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Suite Jr</h3>
@@ -219,7 +245,7 @@
         <article class="room-card reveal">
           <div class="room-image">
             <span class="room-tag">Premium</span>
-            <img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}" alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" loading="lazy" />
+            <img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}" alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </div>
           <div class="room-body">
             <h3>Máster Suite</h3>
@@ -278,7 +304,7 @@
       <div class="section-head reveal">
         <span class="section-eyebrow">Cómo llegar</span>
         <h2 id="loc-title">A Minutos del Centro y de la <em>Feria de San Marcos</em></h2>
-        <p class="section-sub">Uno de los hoteles en Aguascalientes, México, mejor conectados: en el corazón de Fraccionamiento Las Américas, a 5 minutos de la feria más importante del país.</p>
+        <p class="section-sub">Uno de los hoteles en Aguascalientes, México, mejor conectados: en el corazón de Fraccionamiento Las Américas, a 5 minutos de la feria más importante del país. También somos una de las opciones de <a href="{{ route('hoteles.centro') }}" title="Hoteles en el centro de Aguascalientes">hoteles en el centro de Aguascalientes</a> mejor conectadas, a solo 10 minutos de Plaza de la Patria.</p>
       </div>
 
       <div class="location-grid">
@@ -306,12 +332,17 @@
           <a class="btn btn-gold" href="https://maps.google.com/?q=República+de+Brasil+627+Las+Américas+Aguascalientes" target="_blank" rel="noopener" title="Abrir en Google Maps">Ver en Google Maps</a>
         </div>
 
-        <div class="map-frame reveal" role="img" aria-label="Mapa de Aguascalientes">
-          <img src="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" loading="lazy" />
-          <div class="map-pin" aria-hidden="true">
-            <div class="label">Hotel Fratelli</div>
-            <div class="dot"></div>
-          </div>
+        <div class="map-frame reveal">
+          <iframe
+            src="https://www.google.com/maps?q=21.8778,-102.2962&hl=es&z=16&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Hotel Fratelli en Aguascalientes, Google Maps">
+          </iframe>
         </div>
       </div>
     </div>
@@ -499,12 +530,56 @@
     </div>
   </section>
 
+  <!-- BARRIO Y ATRACCIONES -->
+  <section id="ciudad" aria-labelledby="ciudad-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">Qué visitar</span>
+        <h2 id="ciudad-title">Qué Ver Cerca de <em>Hotel Fratelli</em> en Aguascalientes</h2>
+      </div>
+      <div class="seo-prose">
+        <p>Aguascalientes tiene mucho más que la Feria de San Marcos. Desde Hotel Fratelli, en Fraccionamiento Las Américas, estás a un corto trayecto en auto de los puntos más visitados de la ciudad, sin el tráfico ni el ruido de hospedarte justo en la zona turística.</p>
+        <p>A 10 minutos tienes el Centro Histórico: Plaza de la Patria, la Catedral Basílica y el Teatro Morelos, con sus fachadas del siglo XIX. Un poco más allá está el Museo Nacional de la Muerte, con una de las colecciones más singulares de México sobre el tema, y el Jardín de San Marcos, corazón de la feria cada primavera, que vale la pena recorrer incluso fuera de temporada.</p>
+        <p>Por eso somos una opción práctica entre los hoteles en Aguascalientes: llegas, descansas y sales a conocer la ciudad sin perder tiempo en trayectos largos. Ideal tanto para quien viene por la Feria como para quien solo quiere conocer Aguascalientes con calma.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">Resolvemos tus dudas</span>
+        <h2 id="faq-title">Preguntas Frecuentes sobre <em>Hotel Fratelli</em></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <h3>¿A qué hora es el check-in y el check-out?</h3>
+          <p>El check-in es a partir de las 14:00 horas y el check-out hasta las 12:00 horas. Nuestra recepción está disponible las 24 horas, así que si llegas antes o necesitas salir más tarde, escríbenos y con gusto revisamos disponibilidad.</p>
+        </div>
+        <div class="faq-item reveal">
+          <h3>¿El hotel cuenta con estacionamiento?</h3>
+          <p>Consulta disponibilidad de estacionamiento directamente con nosotros al reservar, por teléfono o WhatsApp — con gusto te confirmamos las opciones para tu vehículo antes de tu llegada.</p>
+        </div>
+        <div class="faq-item reveal">
+          <h3>¿Se aceptan mascotas en el Hotel Fratelli Aguascalientes?</h3>
+          <p>Si viajas con una mascota, contáctanos antes de reservar para confirmar disponibilidad y condiciones. Así nos aseguramos de que tanto tú como ella tengan una buena estancia.</p>
+        </div>
+        <div class="faq-item reveal">
+          <h3>¿Cómo reservar directamente sin pagar comisión a OTAs?</h3>
+          <p>Reserva por WhatsApp, teléfono o el formulario de esta página. Al reservar directo con nosotros no pagas comisiones de plataformas externas, obtienes la mejor tarifa disponible y confirmación en menos de 2 horas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 @endsection
 
 @section('footer-fourth-column')
   <div class="footer-col"><h4>SEO</h4><ul>
     <li><a href="{{ route('hoteles.feria') }}">Cerca Feria San Marcos</a></li>
     <li><a href="{{ route('hoteles.economicos') }}">Hoteles económicos</a></li>
+    <li><a href="{{ route('hoteles.centro') }}">Cerca del centro</a></li>
     <li><a href="tel:+524492196201">449 219 6201</a></li>
     <li><a href="mailto:fratelli.hotel@gmail.com">fratelli.hotel@gmail.com</a></li>
   </ul></div>
