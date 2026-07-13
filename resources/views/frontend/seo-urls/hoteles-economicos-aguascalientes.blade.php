@@ -1,3 +1,5 @@
+{{-- URL 2DO SPRINT DE SEO --}}
+
 @extends('layouts.app')
 
 @section('title', 'Hoteles Económicos en Aguascalientes | Hotel Fratelli desde $714.00/noche')
@@ -17,7 +19,7 @@
   <meta name="twitter:description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
   <meta name="twitter:image" content="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Hoteles económicos Aguascalientes","item":"https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles económicos Aguascalientes","item":"https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes"}]}
 </script>
   <script type="application/ld+json">
 {

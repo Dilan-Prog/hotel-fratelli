@@ -16,7 +16,7 @@
   <meta name="twitter:description" content="Para 3 personas. Desde $1,249.50 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/Habitación24/Habitacion24-22.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Triple","item":"https://www.hotelfratelli.com.mx/habitaciones/triple"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Triple","item":"https://www.hotelfratelli.com.mx/habitaciones/triple"}]}
 </script>
 @endsection
 

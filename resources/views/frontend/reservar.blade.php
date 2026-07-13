@@ -20,7 +20,7 @@
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Reservar","item":"https://www.hotelfratelli.com.mx/reservar"}]
+  "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Reservar","item":"https://www.hotelfratelli.com.mx/reservar"}]
 }
 </script>
 @endsection

@@ -28,7 +28,7 @@ class GenerateSitemap extends Command
         $baseUrl = 'https://www.hotelfratelli.com.mx';
 
         $urls = [
-            ['path' => '/', 'priority' => 1.0, 'changefreq' => Url::CHANGE_FREQUENCY_WEEKLY],
+            ['path' => '/hoteles-en-aguascalientes', 'priority' => 1.0, 'changefreq' => Url::CHANGE_FREQUENCY_WEEKLY],
             ['path' => '/habitaciones/sencilla', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/habitaciones/doble', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/habitaciones/doble-matrimonial', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],

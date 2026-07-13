@@ -1005,6 +1005,7 @@ footer {
 .faq-item { padding: 26px 30px; border: 1px solid var(--grey-mid); border-radius: var(--r); }
 .faq-item h3 { font-family: var(--serif); font-weight: 500; font-size: 19px; margin: 0 0 10px; }
 .faq-item p { color: var(--grey-text); margin: 0; line-height: 1.7; }
+.faq-item .link-text-seo-redirect { font-weight: 900; text-decoration: underline; }
 
 .feature-strip {
   display: grid;

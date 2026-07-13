@@ -14,13 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::redirect('/', '/hoteles-en-aguascalientes', 301);
+Route::get('/hoteles-en-aguascalientes', [HomeController::class, 'index'])->name('home');
 
 Route::view('/contacto', 'frontend.contacto')->name('contacto');
 Route::view('/reservar', 'frontend.reservar')->name('reservar');
-Route::view('/hoteles-cerca-feria-san-marcos', 'frontend.hoteles-cerca-feria-san-marcos')->name('hoteles.feria');
-Route::view('/hoteles-economicos-aguascalientes', 'frontend.hoteles-economicos-aguascalientes')->name('hoteles.economicos');
-Route::view('/hoteles-centro', 'frontend.hoteles-centro')->name('hoteles.centro');
+Route::view('/hoteles-cerca-feria-san-marcos', 'frontend.seo-urls.hoteles-cerca-feria-san-marcos')->name('hoteles.feria');
+Route::view('/hoteles-economicos-aguascalientes', 'frontend.seo-urls.hoteles-economicos-aguascalientes')->name('hoteles.economicos');
+Route::view('/hoteles-centro', 'frontend.seo-urls.hoteles-centro')->name('hoteles.centro');
 
 Route::view('/habitaciones', 'habitaciones.index')->name('habitaciones.index');
 Route::view('/habitaciones/sencilla', 'habitaciones.sencilla')->name('habitaciones.sencilla');

@@ -1,3 +1,5 @@
+{{-- URL 2DO SPRINT DE SEO--}}
+
 @extends('layouts.app')
 
 @section('title', 'Hoteles Cerca del Centro de Aguascalientes | Hotel Fratelli')
@@ -17,7 +19,7 @@
   <meta name="twitter:description" content="Hotel Fratelli, a 10 minutos del Centro Histórico de Aguascalientes: Plaza de la Patria y catedral. Habitaciones confortables desde $714.00 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Hoteles cerca del centro","item":"https://www.hotelfratelli.com.mx/hoteles-centro"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca del centro","item":"https://www.hotelfratelli.com.mx/hoteles-centro"}]}
 </script>
 @endsection
 

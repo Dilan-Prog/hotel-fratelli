@@ -17,7 +17,7 @@
   <meta name="twitter:description" content="Hotel Fratelli es uno de los mejores hoteles cerca de la Feria de San Marcos en Aguascalientes. A solo 5 minutos del recinto ferial. Reserva desde $714.00 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/Arcoiris/Arcoiris-1.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Hoteles cerca Feria San Marcos","item":"https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca Feria San Marcos","item":"https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos"}]}
 </script>
   <script type="application/ld+json">
 {

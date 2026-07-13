@@ -16,7 +16,7 @@
   <meta name="twitter:description" content="Para 4 personas, 2 camas matrimoniales. Desde $1,606.50 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/Habitación21/Habitacion21-1.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Cuádruple","item":"https://www.hotelfratelli.com.mx/habitaciones/cuadruple"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Cuádruple","item":"https://www.hotelfratelli.com.mx/habitaciones/cuadruple"}]}
 </script>
 @endsection
 
