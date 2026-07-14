@@ -35,6 +35,5 @@
     'desc' => 'Para 3 personas, 1 cama matrimonial y 1 individual. Pensada para familias pequeñas o grupos de amigos.',
     'feats' => ['1 matrimonial + 1 individual', 'Para 3 personas', 'WiFi gratuito', 'TV'],
     'priceAmount' => '1,249.50',
-    'reservarValue' => 'Triple',
   ])
 @endsection

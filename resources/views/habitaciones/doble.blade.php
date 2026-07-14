@@ -32,6 +32,5 @@
     'desc' => 'Para 2 personas, camas separadas. Perfecta para amigos o familia compacta que prefieren cada uno su propia cama.',
     'feats' => ['Camas separadas', 'Para 2 personas', 'WiFi gratuito', 'Escritorio'],
     'priceAmount' => '952.00',
-    'reservarValue' => 'Doble (camas separadas)',
   ])
 @endsection

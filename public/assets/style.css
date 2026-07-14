@@ -723,41 +723,14 @@ h2 em { font-style: italic; color: var(--gold); font-weight: 400; }
   display: grid;
   grid-template-columns: 1.3fr 1fr;
   gap: 56px;
+  align-items: start;
 }
-form.reserve {
+.reserve {
   background: var(--black-soft);
   border: 1px solid rgba(201,151,58,0.3);
   padding: 40px;
   border-radius: var(--r);
 }
-.form-row {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
-  margin-bottom: 16px;
-}
-.field { display: flex; flex-direction: column; }
-.field label {
-  font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
-  margin-bottom: 8px;
-}
-.field input, .field select, .field textarea {
-  font-family: var(--sans);
-  font-size: 14.5px;
-  padding: 13px 14px;
-  background: var(--black);
-  border: 1px solid rgba(255,255,255,0.15);
-  color: var(--white);
-  border-radius: var(--r);
-  transition: border-color 0.2s ease, background 0.2s ease;
-}
-.field input:focus, .field select:focus, .field textarea:focus {
-  outline: none;
-  border-color: var(--gold);
-  background: #0f0f0f;
-}
-.field textarea { resize: vertical; min-height: 110px; }
-.field select { cursor: pointer; }
-.field select option { background: var(--black); color: var(--white); }
 .form-submit { width: 100%; margin-top: 8px; padding: 16px; }
 
 .contact-info { display: flex; flex-direction: column; gap: 28px; }
@@ -1160,12 +1133,7 @@ footer {
   .carousel-controls { flex-wrap: wrap; gap: 14px; }
 
   /* ─ Formulario ─ */
-  .form-row { grid-template-columns: 1fr; gap: 12px; margin-bottom: 12px; }
-  form.reserve { padding: 24px 18px; }
-  /* Prevenir zoom en iOS al hacer foco en inputs */
-  .field input,
-  .field select,
-  .field textarea { font-size: 16px; }
+  .reserve { padding: 24px 18px; }
 
   /* ─ Info de contacto ─ */
   .contact-info { gap: 20px; }
@@ -1286,7 +1254,7 @@ footer {
   .room-amenity { font-size: 13.5px; }
 
   /* Formulario */
-  form.reserve { padding: 20px 14px; }
+  .reserve { padding: 20px 14px; }
 
   /* Footer */
   .footer-col h4 { font-size: 15px; margin-bottom: 14px; }

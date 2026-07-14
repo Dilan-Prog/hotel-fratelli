@@ -62,7 +62,7 @@
 
           <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;">
             <a href="https://wa.me/524492196201" class="btn btn-gold" target="_blank" rel="noopener">Escribir por WhatsApp</a>
-            <a href="{{ route('reservar') }}" class="btn btn-outline-dark">Hacer una reserva</a>
+            <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-outline-dark">Hacer una reserva</a>
           </div>
         </div>
 

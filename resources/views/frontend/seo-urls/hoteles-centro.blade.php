@@ -31,7 +31,7 @@
       <h1>Hotel a Minutos del <em>Centro de Aguascalientes</em></h1>
       <p class="hero-sub">Hotel Fratelli te conecta con el Centro Histórico de Aguascalientes sin pagar el sobreprecio de hospedarte justo en la zona turística. Confort, calidad y una ubicación pensada para moverte con facilidad por la ciudad.</p>
       <div class="hero-cta">
-        <a href="{{ route('reservar') }}" class="btn btn-gold">Reservar habitación</a>
+        <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-gold">Reservar habitación</a>
         <a href="https://wa.me/524492196201" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp directo</a>
       </div>
     </div>
@@ -78,7 +78,7 @@
       </div>
 
       <div style="margin-top:48px;display:flex;gap:14px;flex-wrap:wrap;">
-        <a href="{{ route('reservar') }}" class="btn btn-dark">Reservar ahora</a>
+        <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-dark">Reservar ahora</a>
         <a href="{{ route('habitaciones.index') }}" class="btn btn-outline-dark">Ver habitaciones</a>
       </div>
     </div>

@@ -10,7 +10,7 @@
       <li><a href="{{ route('home') }}#ubicacion" title="Ubicación">Ubicación</a></li>
       <li><a href="{{ route('contacto') }}" class="{{ request()->routeIs('contacto') ? 'active' : '' }}" title="Contacto">Contacto</a></li>
     </ul>
-    <a href="{{ route('reservar') }}" class="btn btn-gold nav-cta" title="Reservar ahora">Reservar ahora</a>
+    <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-gold nav-cta" title="Reservar ahora por WhatsApp">Reservar ahora</a>
     <button class="nav-burger" id="burger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
   </div>
 </nav>

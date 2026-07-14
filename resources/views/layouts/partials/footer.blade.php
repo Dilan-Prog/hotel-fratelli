@@ -13,7 +13,7 @@
       <div class="footer-col"><h4>Navegación</h4><ul>
         <li><a href="{{ route('home') }}">Inicio</a></li>
         <li><a href="{{ route('habitaciones.index') }}">Habitaciones</a></li>
-        <li><a href="{{ route('reservar') }}">Reservar</a></li>
+        <li><a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener">Reservar</a></li>
         <li><a href="{{ route('contacto') }}">Contacto</a></li>
       </ul></div>
       <div class="footer-col"><h4>Habitaciones</h4><ul>

@@ -158,5 +158,7 @@ Tras eliminar los 8 `!important` muertos (bloque `[style]`), quedan 3 usos **fun
 
 
 app.blade.php CORREGIDO 
+home.blade.php CORREGIDO 
+seo-urls carpeta aislada CORREGIDO 
 
 !!IMPORTANTE carpeta seo-url SOLO UTILIZA LA DEL FERIA SAN MARCOS las demas son para el 2do sprint de SEO

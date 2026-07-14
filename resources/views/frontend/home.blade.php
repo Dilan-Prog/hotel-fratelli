@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
     <meta property="og:url" content="https://www.hotelfratelli.com.mx/" />
-    <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
+    <meta property="og:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}" />
     <meta property="og:locale" content="es_MX" />
     <meta property="og:site_name" content="Hotel Fratelli" />
 
@@ -22,7 +22,7 @@
     <meta name="twitter:title" content="Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche" />
     <meta name="twitter:description"
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
-    <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}" />
 
     <script type="application/ld+json">
   {
@@ -33,9 +33,8 @@
     "url": "https://www.hotelfratelli.com.mx",
     "telephone": "+524492196201",
     "email": "fratelli.hotel@gmail.com",
-    "image": "{{ asset('images/Habitación22/Habitacion22-25.jpg') }}",
+    "image": "{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}",
     "priceRange": "$$$",
-    "starRating": { "@type": "Rating", "ratingValue": "2" },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "República de Brasil 627, Fracc. Las Américas",
@@ -108,6 +107,14 @@
         "@type": "Answer",
         "text": "Reserva por WhatsApp, teléfono o el formulario de esta página. Al reservar directo con nosotros no pagas comisiones de plataformas externas, obtienes la mejor tarifa disponible y confirmación en menos de 2 horas."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Están cerca de la Feria de San Marcos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, Hotel Fratelli está a solo 5 minutos de la Feria de San Marcos y a 10 minutos del Centro Histórico. Consulta todos los detalles de cómo llegar en nuestra página de hoteles cerca de la Feria de San Marcos."
+      }
     }
   ]
 }
@@ -119,16 +126,16 @@
     <!-- HERO -->
     <header class="hero" id="inicio">
         <div class="hero-bg" aria-hidden="true">
-            <img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}"
-                alt="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes"
-                title="Habitación con cama king y acabados elegantes, Hotel Fratelli Aguascalientes" width="1024"
-                height="681" fetchpriority="high" loading="eager" />
+            <img src="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}"
+                alt="Fachada del Hotel Fratelli de día, Aguascalientes"
+                title="Fachada del Hotel Fratelli de día, Aguascalientes" width="1498"
+                height="1050" fetchpriority="high" loading="eager" />
         </div>
         <div class="container hero-inner">
             <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
             <h1>Hotel Fratelli — Uno de los Mejores <em>Hoteles en Aguascalientes</em></h1>
             <p class="hero-sub">Uno de los hoteles en Aguascalientes mejor ubicados: 24 habitaciones cuidadosamente
-                diseñadas a 5 minutos de la Feria de San Marcos. Recepción 24 horas, WiFi gratuito y vistas a la ciudad.
+                diseñadas a 5 minutos de la <a href="{{ route("hoteles.feria") }}" style="text-decoration: underline;">Feria de San Marcos</a>. Recepción 24 horas, WiFi gratuito y vistas a la ciudad.
                 Tarifas desde MXN $714.00/noche.</p>
             <div class="hero-cta">
                 <a href="{{ route('habitaciones.index') }}" class="btn btn-gold" title="Ver habitaciones">Ver
@@ -175,7 +182,7 @@
                             </svg></div>
                         <div>
                             <h3>Ubicación estratégica</h3>
-                            <p>A solo 5 minutos de la Feria de San Marcos y zonas comerciales clave de Aguascalientes.</p>
+                            <p>A solo 5 minutos de la <a href="{{ route("hoteles.feria") }}" style="text-decoration: underline;">Feria de San Marcos</a> y zonas comerciales clave de Aguascalientes.</p>
                         </div>
                     </div>
                     <div class="why-card reveal">
@@ -378,7 +385,8 @@
                 <h2 id="loc-title">A Minutos del Centro y de la <em>Feria de San Marcos</em></h2>
                 <p class="section-sub">Uno de los hoteles en Aguascalientes, México, mejor conectados: en el corazón de
                     Fraccionamiento Las Américas, a 5 minutos de la feria más importante del país. También somos una de las
-                    opciones de <a href="{{ route('hoteles.centro') }}"
+                    {{-- {{ route('hoteles.centro') }} --}}
+                    opciones de <a href="#"
                         title="Hoteles en el centro de Aguascalientes">hoteles en el centro de Aguascalientes</a> mejor
                     conectadas, a solo 10 minutos de Plaza de la Patria.</p>
             </div>
@@ -398,7 +406,7 @@
                                 <path d="M12 22s-7-7.5-7-13a7 7 0 0114 0c0 5.5-7 13-7 13z" />
                                 <circle cx="12" cy="9" r="2.5" />
                             </svg>
-                            <div><strong>A 5 minutos</strong><span class="muted">de la Feria de San Marcos en auto</span>
+                            <div><strong>A 5 minutos</strong><span class="muted">de la <a href="{{ route('hoteles.feria') }}" style="text-decoration: underline;">Feria de San Marcos</a> en auto</span>
                             </div>
                         </div>
                         <div class="loc-row">
@@ -650,48 +658,17 @@
     <!-- CONTACT -->
     <section class="contact" id="contacto" aria-labelledby="contact-title">
         <div class="container">
-            <div class="section-head reveal">
-                <span class="section-eyebrow">Reserva tu estancia</span>
-                <h2 id="contact-title">Reserva tu habitación en <em>Aguascalientes</em></h2>
-                <p class="section-sub">Elegir entre los hoteles en Aguascalientes nunca fue tan fácil: envíanos tus fechas
-                    y un miembro de nuestro equipo te confirmará disponibilidad en menos de 2 horas.</p>
-            </div>
+
             <div class="contact-grid">
-                <form class="reserve reveal" id="reserveForm" novalidate>
-                    <div class="form-row">
-                        <div class="field"><label for="name">Nombre completo</label><input type="text"
-                                id="name" name="name" required placeholder="Tu nombre" /></div>
-                        <div class="field"><label for="email">Email</label><input type="email" id="email"
-                                name="email" required placeholder="tu@email.com" /></div>
-                    </div>
-                    <div class="form-row">
-                        <div class="field"><label for="phone">Teléfono</label><input type="tel" id="phone"
-                                name="phone" placeholder="449 000 0000" /></div>
-                        <div class="field"><label for="roomType">Tipo de habitación</label>
-                            <select id="roomType" name="roomType">
-                                <option value="">Selecciona...</option>
-                                <option value="Sencilla">Sencilla — $714.00 MXN</option>
-                                <option value="Doble (cama matrimonial)">Doble (cama matrimonial) — $833.00 MXN</option>
-                                <option value="Doble (camas separadas)">Doble (camas separadas) — $952.00 MXN</option>
-                                <option value="Suite Jr">Suite Jr — $892.50 MXN</option>
-                                <option value="Máster Suite">Máster Suite — $952.00 MXN</option>
-                                <option value="Triple">Triple — $1,249.50 MXN</option>
-                                <option value="Cuádruple">Cuádruple — $1,606.50 MXN</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="field"><label for="checkin">Fecha de entrada</label><input type="date"
-                                id="checkin" name="checkin" /></div>
-                        <div class="field"><label for="checkout">Fecha de salida</label><input type="date"
-                                id="checkout" name="checkout" /></div>
-                    </div>
-                    <div class="field" style="margin-bottom: 20px;">
-                        <label for="message">Mensaje (opcional)</label>
-                        <textarea id="message" name="message" placeholder="Cuéntanos cualquier detalle de tu estancia..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-gold form-submit">Enviar solicitud</button>
-                </form>
+                <div class="section-head reveal">
+                    <span class="section-eyebrow">Reserva tu estancia</span>
+                    <h2 id="contact-title">Reserva tu habitación en <em>Aguascalientes</em></h2>
+                    <p class="section-sub">Elegir entre los hoteles en Aguascalientes nunca fue tan fácil: envíanos tus fechas
+                        y un miembro de nuestro equipo te confirmará disponibilidad en menos de 2 horas.</p>
+                        <p class="section-sub" style="margin-bottom:28px;">La forma más rápida de reservar es directo por WhatsApp: cuéntanos tus fechas, tipo de habitación y número de huéspedes, y te confirmamos disponibilidad en menos de 2 horas.</p>
+                    <a href="https://wa.me/524492196201?text={{ urlencode('¡Hola Hotel Fratelli! Quiero reservar una habitación.') }}" target="_blank" rel="noopener" class="btn btn-gold form-submit">Reservar por WhatsApp</a>
+
+                </div>
 
                 <aside class="contact-info reveal" aria-label="Información de contacto">
                     <div class="info-row">
@@ -846,6 +823,15 @@
                             title="Cómo llegar a Hotel Fratelli">sección de ubicación</a>.</p>
                 </div>
 
+                <div class="faq-item reveal">
+                    <h3>¿Están cerca de la Feria de San Marcos?</h3>
+                    <p>Sí, Hotel Fratelli está a solo 5 minutos de la Feria de San Marcos y a 10 minutos del Centro
+                        Histórico. Consulta todos los detalles de cómo llegar en nuestra <a
+                            href="{{ route('hoteles.feria') }}" class="link-text-seo-redirect"
+                            title="Hoteles cerca de la Feria de San Marcos">página de hoteles cerca de la Feria de San
+                            Marcos</a>.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -854,11 +840,11 @@
 
 @section('footer-fourth-column')
     <div class="footer-col">
-        <h4>SEO</h4>
+        <h4>Contacto</h4>
         <ul>
             <li><a href="{{ route('hoteles.feria') }}">Cerca Feria San Marcos</a></li>
-            <li><a href="{{ route('hoteles.economicos') }}">Hoteles económicos</a></li>
-            <li><a href="{{ route('hoteles.centro') }}">Cerca del centro</a></li>
+            {{-- <li><a href="{{ route('hoteles.economicos') }}">Hoteles económicos</a></li> --}}
+            {{-- <li><a href="{{ route('hoteles.centro') }}">Cerca del centro</a></li> --}}
             <li><a href="tel:+524492196201">449 219 6201</a></li>
             <li><a href="mailto:fratelli.hotel@gmail.com">fratelli.hotel@gmail.com</a></li>
         </ul>

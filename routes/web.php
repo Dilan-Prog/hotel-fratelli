@@ -18,7 +18,7 @@ Route::redirect('/', '/hoteles-en-aguascalientes', 301);
 Route::get('/hoteles-en-aguascalientes', [HomeController::class, 'index'])->name('home');
 
 Route::view('/contacto', 'frontend.contacto')->name('contacto');
-Route::view('/reservar', 'frontend.reservar')->name('reservar');
+Route::redirect('/reservar', 'https://wa.me/524492196201', 301);
 Route::view('/hoteles-cerca-feria-san-marcos', 'frontend.seo-urls.hoteles-cerca-feria-san-marcos')->name('hoteles.feria');
 Route::view('/hoteles-economicos-aguascalientes', 'frontend.seo-urls.hoteles-economicos-aguascalientes')->name('hoteles.economicos');
 Route::view('/hoteles-centro', 'frontend.seo-urls.hoteles-centro')->name('hoteles.centro');

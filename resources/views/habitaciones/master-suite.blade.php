@@ -32,6 +32,5 @@
     'desc' => 'Para 2 personas, 1 cama King. Nuestra habitación insignia, con los acabados más premium del hotel.',
     'feats' => ['1 cama King', 'Para 2 personas', 'Baño premium', 'WiFi gratuito'],
     'priceAmount' => '952.00',
-    'reservarValue' => 'Máster Suite',
   ])
 @endsection

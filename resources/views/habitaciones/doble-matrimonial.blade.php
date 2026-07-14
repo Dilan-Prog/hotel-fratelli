@@ -32,6 +32,5 @@
     'desc' => 'Para 2 personas, 1 cama matrimonial. Perfecta para parejas que prefieren compartir una sola cama amplia.',
     'feats' => ['1 cama matrimonial', 'Para 2 personas', 'WiFi gratuito', 'TV'],
     'priceAmount' => '833.00',
-    'reservarValue' => 'Doble (cama matrimonial)',
   ])
 @endsection

@@ -8,13 +8,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Habitaciones | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes con precios reales desde $714.00 MXN/noche." />
-  <meta property="og:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
+  <meta property="og:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_noche.png') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Habitaciones | Hotel Fratelli Aguascalientes" />
   <meta name="twitter:description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes con precios reales desde $714.00 MXN/noche." />
-  <meta name="twitter:image" content="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" />
+  <meta name="twitter:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_noche.png') }}" />
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"}]}
 </script>
@@ -22,7 +22,7 @@
 
 @section('content')
   <header class="hero hero-medium">
-    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/Habitación22/Habitacion22-25.jpg') }}" alt="Habitaciones Hotel Fratelli Aguascalientes" /></div>
+    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_noche.png') }}" alt="Habitaciones Hotel Fratelli Aguascalientes" /></div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">7 tipos de habitación</span>
       <h1>Nuestras <em>Habitaciones</em></h1>

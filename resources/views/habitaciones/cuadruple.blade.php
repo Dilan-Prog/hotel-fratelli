@@ -35,6 +35,5 @@
     'desc' => 'Para 4 personas, 2 camas matrimoniales. La opción con más espacio para familias o grupos grandes.',
     'feats' => ['2 camas matrimoniales', 'Para 4 personas', 'WiFi gratuito', 'TV'],
     'priceAmount' => '1,606.50',
-    'reservarValue' => 'Cuádruple',
   ])
 @endsection

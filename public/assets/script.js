@@ -86,59 +86,6 @@
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
   }
 
-  // ===== ROOM CTA → prefill form / link to reservar =====
-  document.querySelectorAll('[data-room-cta]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const type = btn.dataset.room;
-      try { sessionStorage.setItem('fratelli_room', type); } catch (e) {}
-    });
-  });
-
-  // ===== RESERVE form =====
-  const form = document.getElementById('reserveForm');
-  if (form) {
-    // Prefill from sessionStorage
-    try {
-      const stored = sessionStorage.getItem('fratelli_room');
-      if (stored) {
-        const sel = form.querySelector('#roomType');
-        if (sel) {
-          [...sel.options].forEach(o => {
-            if (o.value === stored || o.textContent.trim() === stored) o.selected = true;
-          });
-        }
-        sessionStorage.removeItem('fratelli_room');
-      }
-    } catch (e) {}
-
-    // Set min dates to today
-    const today = new Date().toISOString().split('T')[0];
-    const ci = form.querySelector('#checkin');
-    const co = form.querySelector('#checkout');
-    if (ci) ci.min = today;
-    if (co) co.min = today;
-
-    // Submit → open WhatsApp with prefilled message
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      const data = new FormData(form);
-      const msg = [
-        '¡Hola Hotel Fratelli! Quiero reservar.',
-        '',
-        `Nombre: ${data.get('name') || '-'}`,
-        `Email: ${data.get('email') || '-'}`,
-        `Teléfono: ${data.get('phone') || '-'}`,
-        `Tipo de habitación: ${data.get('roomType') || '-'}`,
-        `Entrada: ${data.get('checkin') || '-'}`,
-        `Salida: ${data.get('checkout') || '-'}`,
-        `Huéspedes: ${data.get('guests') || '-'}`,
-        `Mensaje: ${data.get('message') || '-'}`
-      ].join('\n');
-      const url = `https://wa.me/524492196201?text=${encodeURIComponent(msg)}`;
-      window.open(url, '_blank', 'noopener');
-    });
-  }
-
   // ===== CAROUSEL (reseñas) =====
   document.querySelectorAll('[data-carousel]').forEach(initCarousel);
 

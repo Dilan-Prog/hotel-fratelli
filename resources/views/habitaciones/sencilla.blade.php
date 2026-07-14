@@ -32,6 +32,5 @@
     'desc' => 'Para 1 persona, 1 cama matrimonial. Espacio funcional y luz natural — ideal para viajeros de negocios o quienes buscan comodidad sin pagar de más.',
     'feats' => ['1 cama matrimonial', 'Para 1 persona', 'WiFi gratuito', 'TV'],
     'priceAmount' => '714.00',
-    'reservarValue' => 'Sencilla',
   ])
 @endsection

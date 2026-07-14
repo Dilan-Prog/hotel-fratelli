@@ -55,7 +55,7 @@
       <h1>Hoteles Económicos en Aguascalientes — <em>Hotel Fratelli</em></h1>
       <p class="hero-sub">Calidad boutique a precios honestos. Habitación sencilla desde $714.00 MXN, doble desde $833.00 MXN. Recepción 24 horas, WiFi gratuito y ubicación inmejorable.</p>
       <div class="hero-cta">
-        <a href="{{ route('reservar') }}" class="btn btn-gold">Reservar ahora</a>
+        <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-gold">Reservar ahora</a>
         <a href="{{ route('habitaciones.index') }}" class="btn btn-outline">Ver tarifas</a>
       </div>
     </div>
@@ -111,7 +111,7 @@
       </div>
 
       <div style="margin-top:48px;display:flex;gap:14px;flex-wrap:wrap;">
-        <a href="{{ route('reservar') }}" class="btn btn-dark">Reservar ahora</a>
+        <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-dark">Reservar ahora</a>
         <a href="https://wa.me/524492196201" target="_blank" rel="noopener" class="btn btn-outline-dark">Consultar por WhatsApp</a>
       </div>
     </div>

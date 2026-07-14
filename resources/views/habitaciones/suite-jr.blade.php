@@ -32,6 +32,5 @@
     'desc' => 'Para 2 personas, 1 cama Queen. Sala de estar separada y vista a la ciudad — el equilibrio entre espacio y precio.',
     'feats' => ['1 cama Queen', 'Para 2 personas', 'Sala de estar', 'Vista a la ciudad'],
     'priceAmount' => '892.50',
-    'reservarValue' => 'Suite Jr',
   ])
 @endsection

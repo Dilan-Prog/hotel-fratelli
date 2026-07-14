@@ -1,6 +1,6 @@
 {{-- Partial compartido por las 7 vistas de detalle de habitación. Variables esperadas:
      $roomNameHtml, $roomName, $eyebrow, $heroSub, $mainImg, $thumbs (array de 3),
-     $desc, $feats (array de strings), $priceAmount, $reservarValue, $breadcrumbLabel --}}
+     $desc, $feats (array de strings), $priceAmount, $breadcrumbLabel --}}
 <header class="hero hero-small">
   <div class="hero-bg" aria-hidden="true"><img src="{{ asset($mainImg) }}" alt="{{ $roomName }}, Hotel Fratelli Aguascalientes" /></div>
   <div class="container hero-inner">
@@ -49,7 +49,7 @@
         </div>
 
         <div class="room-cta-group">
-          <a href="{{ route('reservar') }}?room={{ urlencode($reservarValue) }}" class="btn btn-gold" data-room-cta data-room="{{ $reservarValue }}">Reservar esta habitación</a>
+          <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar la Habitación ' . $roomName . '.') }}" target="_blank" rel="noopener" class="btn btn-gold">Reservar esta habitación</a>
           <a href="https://wa.me/524492196201?text={{ urlencode('Hola, me interesa la Habitación ' . $roomName . '.') }}" target="_blank" rel="noopener" class="btn btn-outline-dark">Preguntar por WhatsApp</a>
         </div>
       </div>

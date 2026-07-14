@@ -53,7 +53,7 @@
       <h1>Hotel a 5 Minutos de la <em>Feria de San Marcos</em>, Aguascalientes</h1>
       <p class="hero-sub">Hotel Fratelli es la mejor opción si vienes a la Feria Nacional de San Marcos. Habitaciones confortables, recepción 24 horas y un descanso real después de cada noche de feria.</p>
       <div class="hero-cta">
-        <a href="{{ route('reservar') }}" class="btn btn-gold">Reservar habitación</a>
+        <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-gold">Reservar habitación</a>
         <a href="https://wa.me/524492196201" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp directo</a>
       </div>
     </div>
@@ -109,7 +109,7 @@
       </div>
 
       <div style="margin-top:48px;display:flex;gap:14px;flex-wrap:wrap;">
-        <a href="{{ route('reservar') }}" class="btn btn-dark">Reservar ahora</a>
+        <a href="https://wa.me/524492196201?text={{ urlencode('Hola, quiero reservar una habitación en Hotel Fratelli.') }}" target="_blank" rel="noopener" class="btn btn-dark">Reservar ahora</a>
         <a href="{{ route('habitaciones.index') }}" class="btn btn-outline-dark">Ver habitaciones</a>
       </div>
     </div>
