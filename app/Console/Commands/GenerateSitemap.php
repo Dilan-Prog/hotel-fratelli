@@ -25,10 +25,11 @@ class GenerateSitemap extends Command
     public function handle(): int
     {
         $now = Carbon::now();
-        $baseUrl = 'https://www.hotelfratelli.com.mx';
+        $baseUrl = 'https://hotelfratelli.com.mx';
 
         $urls = [
             ['path' => '/hoteles-en-aguascalientes', 'priority' => 1.0, 'changefreq' => Url::CHANGE_FREQUENCY_WEEKLY],
+            ['path' => '/habitaciones', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/habitaciones/sencilla', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/habitaciones/doble', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/habitaciones/doble-matrimonial', 'priority' => 0.9, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
@@ -40,7 +41,6 @@ class GenerateSitemap extends Command
             ['path' => '/hoteles-cerca-feria-san-marcos', 'priority' => 0.8, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/hoteles-centro', 'priority' => 0.8, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
             ['path' => '/contacto', 'priority' => 0.6, 'changefreq' => Url::CHANGE_FREQUENCY_YEARLY],
-            ['path' => '/galeria', 'priority' => 0.5, 'changefreq' => Url::CHANGE_FREQUENCY_MONTHLY],
         ];
 
         $sitemap = Sitemap::create();

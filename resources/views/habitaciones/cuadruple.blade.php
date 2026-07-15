@@ -4,7 +4,7 @@
 
 @section('meta')
   <meta name="description" content="Habitación Cuádruple en Hotel Fratelli Aguascalientes: para 4 personas, 2 camas matrimoniales. Desde $1,606.50 MXN/noche." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/habitaciones/cuadruple" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/habitaciones/cuadruple" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Habitación Cuádruple | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Para 4 personas, 2 camas matrimoniales. Desde $1,606.50 MXN/noche." />
@@ -16,7 +16,7 @@
   <meta name="twitter:description" content="Para 4 personas, 2 camas matrimoniales. Desde $1,606.50 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/habitacion19/habitacion19-40.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Cuádruple","item":"https://www.hotelfratelli.com.mx/habitaciones/cuadruple"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Cuádruple","item":"https://hotelfratelli.com.mx/habitaciones/cuadruple"}]}
 </script>
 @endsection
 

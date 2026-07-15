@@ -4,7 +4,7 @@
 
 @section('meta')
   <meta name="description" content="Habitación Triple en Hotel Fratelli Aguascalientes: para 3 personas. Desde $1,249.50 MXN/noche." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/habitaciones/triple" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/habitaciones/triple" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Habitación Triple | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Para 3 personas. Desde $1,249.50 MXN/noche." />
@@ -16,7 +16,7 @@
   <meta name="twitter:description" content="Para 3 personas. Desde $1,249.50 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Triple","item":"https://www.hotelfratelli.com.mx/habitaciones/triple"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Triple","item":"https://hotelfratelli.com.mx/habitaciones/triple"}]}
 </script>
 @endsection
 

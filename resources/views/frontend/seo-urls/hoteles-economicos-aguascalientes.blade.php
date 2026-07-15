@@ -6,11 +6,11 @@
 
 @section('meta')
   <meta name="description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/hoteles-economicos-aguascalientes" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hoteles Económicos en Aguascalientes | Hotel Fratelli desde $714.00/noche" />
   <meta property="og:description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
-  <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes" />
+  <meta property="og:url" content="https://hotelfratelli.com.mx/hoteles-economicos-aguascalientes" />
   <meta property="og:image" content="{{ asset('images/habitacion17/habitacion17-16.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Buscas hoteles económicos en Aguascalientes con calidad real? Hotel Fratelli ofrece habitaciones desde $714.00 MXN/noche, WiFi gratis y recepción 24 horas." />
   <meta name="twitter:image" content="{{ asset('images/habitacion17/habitacion17-16.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles económicos Aguascalientes","item":"https://www.hotelfratelli.com.mx/hoteles-economicos-aguascalientes"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles económicos Aguascalientes","item":"https://hotelfratelli.com.mx/hoteles-economicos-aguascalientes"}]}
 </script>
   <script type="application/ld+json">
 {

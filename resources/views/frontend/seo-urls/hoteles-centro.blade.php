@@ -6,11 +6,11 @@
 
 @section('meta')
   <meta name="description" content="Hotel Fratelli, a 10 minutos del Centro Histórico de Aguascalientes: Plaza de la Patria y catedral. Habitaciones confortables desde $714.00 MXN/noche." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-centro" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/hoteles-centro" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hoteles Cerca del Centro de Aguascalientes | Hotel Fratelli" />
   <meta property="og:description" content="Hotel Fratelli, a 10 minutos del Centro Histórico de Aguascalientes: Plaza de la Patria y catedral. Habitaciones confortables desde $714.00 MXN/noche." />
-  <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-centro" />
+  <meta property="og:url" content="https://hotelfratelli.com.mx/hoteles-centro" />
   <meta property="og:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Hotel Fratelli, a 10 minutos del Centro Histórico de Aguascalientes: Plaza de la Patria y catedral. Habitaciones confortables desde $714.00 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca del centro","item":"https://www.hotelfratelli.com.mx/hoteles-centro"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca del centro","item":"https://hotelfratelli.com.mx/hoteles-centro"}]}
 </script>
 @endsection
 

@@ -4,11 +4,11 @@
 
 @section('meta')
   <meta name="description" content="Hotel Fratelli es uno de los mejores hoteles cerca de la Feria de San Marcos en Aguascalientes. A solo 5 minutos del recinto ferial. Reserva desde $714.00 MXN/noche." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hoteles Cerca de la Feria de San Marcos | Hotel Fratelli — A 5 minutos" />
   <meta property="og:description" content="Hotel Fratelli es uno de los mejores hoteles cerca de la Feria de San Marcos en Aguascalientes. A solo 5 minutos del recinto ferial. Reserva desde $714.00 MXN/noche." />
-  <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos" />
+  <meta property="og:url" content="https://hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos" />
   <meta property="og:image" content="{{ asset('images/arcoiris/arcoiris-1.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
@@ -17,7 +17,7 @@
   <meta name="twitter:description" content="Hotel Fratelli es uno de los mejores hoteles cerca de la Feria de San Marcos en Aguascalientes. A solo 5 minutos del recinto ferial. Reserva desde $714.00 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/arcoiris/arcoiris-1.jpg') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca Feria San Marcos","item":"https://www.hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca Feria San Marcos","item":"https://hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos"}]}
 </script>
   <script type="application/ld+json">
 {

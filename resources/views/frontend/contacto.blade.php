@@ -4,11 +4,11 @@
 
 @section('meta')
   <meta name="description" content="Contacta al Hotel Fratelli en Aguascalientes. Teléfono 449 219 6201, WhatsApp, email y dirección en Fraccionamiento Las Américas. Recepción 24 horas." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/contacto" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/contacto" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Contacto | Hotel Fratelli Aguascalientes — 449 219 6201" />
   <meta property="og:description" content="Contacta al Hotel Fratelli en Aguascalientes. Teléfono 449 219 6201, WhatsApp, email y dirección en Fraccionamiento Las Américas. Recepción 24 horas." />
-  <meta property="og:url" content="https://www.hotelfratelli.com.mx/contacto" />
+  <meta property="og:url" content="https://hotelfratelli.com.mx/contacto" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
@@ -20,7 +20,7 @@
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Contacto","item":"https://www.hotelfratelli.com.mx/contacto"}]
+  "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Contacto","item":"https://hotelfratelli.com.mx/contacto"}]
 }
 </script>
 @endsection

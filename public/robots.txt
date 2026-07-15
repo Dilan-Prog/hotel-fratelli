@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://www.hotelfratelli.com.mx/sitemap.xml

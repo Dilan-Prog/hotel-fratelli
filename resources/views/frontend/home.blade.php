@@ -7,13 +7,13 @@
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
     <meta name="keywords"
         content="hotel aguascalientes, hoteles aguascalientes, hotel fratelli, hoteles cerca feria san marcos, hotel económico aguascalientes, hospedaje aguascalientes" />
-    <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes">
+    <link rel="canonical" href="https://hotelfratelli.com.mx/hoteles-en-aguascalientes">
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche" />
     <meta property="og:description"
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
-    <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes" />
+    <meta property="og:url" content="https://hotelfratelli.com.mx/hoteles-en-aguascalientes" />
     <meta property="og:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}" />
     <meta property="og:locale" content="es_MX" />
     <meta property="og:site_name" content="Hotel Fratelli" />
@@ -30,7 +30,7 @@
     "@type": "Hotel",
     "name": "Hotel Fratelli",
     "description": "Hotel boutique en Aguascalientes con 24 habitaciones, recepción 24 horas, WiFi gratuito y ubicación a 5 minutos de la Feria de San Marcos.",
-    "url": "https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes",
+    "url": "https://hotelfratelli.com.mx/hoteles-en-aguascalientes",
     "telephone": "+524492196201",
     "email": "fratelli.hotel@gmail.com",
     "image": "{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}",
@@ -68,7 +68,7 @@
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://hotelfratelli.com.mx/hoteles-en-aguascalientes" }
     ]
   }
   </script>

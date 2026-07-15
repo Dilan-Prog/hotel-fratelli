@@ -4,7 +4,7 @@
 
 @section('meta')
   <meta name="description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes: Sencilla, Doble, Suite Jr, Máster Suite, Triple y Cuádruple. Precios reales desde $714.00 MXN/noche." />
-  <link rel="canonical" href="https://www.hotelfratelli.com.mx/habitaciones" />
+  <link rel="canonical" href="https://hotelfratelli.com.mx/habitaciones" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Habitaciones | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes con precios reales desde $714.00 MXN/noche." />
@@ -16,7 +16,7 @@
   <meta name="twitter:description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes con precios reales desde $714.00 MXN/noche." />
   <meta name="twitter:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-noche.png') }}" />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"}]}
 </script>
 @endsection
 
