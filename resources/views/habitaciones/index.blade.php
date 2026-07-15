@@ -8,13 +8,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Habitaciones | Hotel Fratelli Aguascalientes" />
   <meta property="og:description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes con precios reales desde $714.00 MXN/noche." />
-  <meta property="og:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_noche.png') }}" />
+  <meta property="og:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-noche.png') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Habitaciones | Hotel Fratelli Aguascalientes" />
   <meta name="twitter:description" content="Conoce las 7 habitaciones de Hotel Fratelli Aguascalientes con precios reales desde $714.00 MXN/noche." />
-  <meta name="twitter:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_noche.png') }}" />
+  <meta name="twitter:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-noche.png') }}" />
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://www.hotelfratelli.com.mx/habitaciones"}]}
 </script>
@@ -22,7 +22,7 @@
 
 @section('content')
   <header class="hero hero-medium">
-    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_noche.png') }}" alt="Habitaciones Hotel Fratelli Aguascalientes" /></div>
+    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-noche.png') }}" alt="Habitaciones Hotel Fratelli Aguascalientes" /></div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">7 tipos de habitación</span>
       <h1>Nuestras <em>Habitaciones</em></h1>
@@ -46,7 +46,7 @@
       <div class="catalog-grid">
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}" alt="Habitación Sencilla, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}" alt="Habitación Sencilla, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Sencilla</h3>
             <div class="cc-feats"><span>1 persona</span><span>1 matrimonial</span></div>
@@ -57,7 +57,7 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación19/Habitacion19-25.jpg') }}" alt="Habitación Doble con cama matrimonial, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion19/habitacion19-25.jpg') }}" alt="Habitación Doble con cama matrimonial, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Doble (cama matrimonial)</h3>
             <div class="cc-feats"><span>2 personas</span><span>1 matrimonial</span></div>
@@ -68,7 +68,7 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación19/Habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Suite Jr</h3>
             <div class="cc-feats"><span>2 personas</span><span>1 Queen</span></div>
@@ -79,7 +79,7 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación21/Habitacion21-20.jpg') }}" alt="Habitación Doble con camas separadas, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion21/habitacion21-20.jpg') }}" alt="Habitación Doble con camas separadas, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Doble (camas separadas)</h3>
             <div class="cc-feats"><span>2 personas</span><span>2 camas</span></div>
@@ -90,7 +90,7 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}" alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion22/habitacion22-1.jpg') }}" alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Máster Suite</h3>
             <div class="cc-feats"><span>2 personas</span><span>1 King</span></div>
@@ -101,7 +101,7 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación24/Habitacion24-22.jpg') }}" alt="Habitación Triple, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion24/habitacion24-22.jpg') }}" alt="Habitación Triple, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Triple</h3>
             <div class="cc-feats"><span>3 personas</span><span>Matrimonial + individual</span></div>
@@ -112,7 +112,7 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><img src="{{ asset('images/Habitación21/Habitacion21-1.jpg') }}" alt="Habitación Cuádruple, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
+          <div class="cc-image"><img src="{{ asset('images/habitacion21/habitacion21-1.jpg') }}" alt="Habitación Cuádruple, Hotel Fratelli Aguascalientes" loading="lazy" /></div>
           <div class="cc-body">
             <h3>Cuádruple</h3>
             <div class="cc-feats"><span>4 personas</span><span>2 matrimoniales</span></div>

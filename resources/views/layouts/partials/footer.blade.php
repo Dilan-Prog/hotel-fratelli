@@ -2,7 +2,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col footer-brand">
-        <div class="logo"><img src="{{ asset('images/Logotipo/' . rawurlencode('Hotel Fratelli_Logo_Blanco_Color.png')) }}" alt="Hotel Fratelli" class="logo-img"></div>
+        <div class="logo"><img src="{{ asset('images/logotipo/hotel-fratelli-logo-blanco-color.png') }}" alt="Hotel Fratelli" class="logo-img"></div>
         <p>Confort, calidad y descanso en el corazón de Aguascalientes. Hotel boutique con 24 habitaciones a 5 minutos de la Feria de San Marcos.</p>
         <div class="socials">
           <a href="https://facebook.com/HotelFratelli" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.8c0-.9.2-1.5 1.5-1.5h1.6V4.5c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.4H7.8V14h2.6v8h3.1z"/></svg></a>

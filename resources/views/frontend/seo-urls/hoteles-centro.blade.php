@@ -11,13 +11,13 @@
   <meta property="og:title" content="Hoteles Cerca del Centro de Aguascalientes | Hotel Fratelli" />
   <meta property="og:description" content="Hotel Fratelli, a 10 minutos del Centro Histórico de Aguascalientes: Plaza de la Patria y catedral. Habitaciones confortables desde $714.00 MXN/noche." />
   <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-centro" />
-  <meta property="og:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" />
+  <meta property="og:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}" />
   <meta property="og:locale" content="es_MX" />
   <meta property="og:site_name" content="Hotel Fratelli" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hoteles Cerca del Centro de Aguascalientes | Hotel Fratelli" />
   <meta name="twitter:description" content="Hotel Fratelli, a 10 minutos del Centro Histórico de Aguascalientes: Plaza de la Patria y catedral. Habitaciones confortables desde $714.00 MXN/noche." />
-  <meta name="twitter:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" />
+  <meta name="twitter:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}" />
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Hoteles cerca del centro","item":"https://www.hotelfratelli.com.mx/hoteles-centro"}]}
 </script>
@@ -25,7 +25,7 @@
 
 @section('content')
   <header class="hero hero-medium">
-    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}" alt="Fachada del Hotel Fratelli de noche, Aguascalientes" /></div>
+    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}" alt="Fachada del Hotel Fratelli de noche, Aguascalientes" /></div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">A 10 minutos del Centro Histórico</span>
       <h1>Hotel a Minutos del <em>Centro de Aguascalientes</em></h1>

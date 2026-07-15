@@ -1,20 +1,20 @@
 @extends('layouts.app')
 
-@section('title', 'Hoteles en Aguascalientes desde $714/noche')
+@section('title', 'Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche')
 
 @section('meta')
     <meta name="description"
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
     <meta name="keywords"
         content="hotel aguascalientes, hoteles aguascalientes, hotel fratelli, hoteles cerca feria san marcos, hotel económico aguascalientes, hospedaje aguascalientes" />
-    <link rel="canonical" href="https://www.hotelfratelli.com.mx/">
+    <link rel="canonical" href="https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes">
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche" />
     <meta property="og:description"
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
-    <meta property="og:url" content="https://www.hotelfratelli.com.mx/" />
-    <meta property="og:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}" />
+    <meta property="og:url" content="https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes" />
+    <meta property="og:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}" />
     <meta property="og:locale" content="es_MX" />
     <meta property="og:site_name" content="Hotel Fratelli" />
 
@@ -22,7 +22,7 @@
     <meta name="twitter:title" content="Hoteles en Aguascalientes | Hotel Fratelli desde $714/noche" />
     <meta name="twitter:description"
         content="Hotel Fratelli, uno de los mejores hoteles en Aguascalientes: 24 habitaciones confortables, WiFi gratis y recepción 24h a 5 min de la Feria. ¡Reserva ya!" />
-    <meta name="twitter:image" content="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}" />
+    <meta name="twitter:image" content="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}" />
 
     <script type="application/ld+json">
   {
@@ -30,10 +30,10 @@
     "@type": "Hotel",
     "name": "Hotel Fratelli",
     "description": "Hotel boutique en Aguascalientes con 24 habitaciones, recepción 24 horas, WiFi gratuito y ubicación a 5 minutos de la Feria de San Marcos.",
-    "url": "https://www.hotelfratelli.com.mx",
+    "url": "https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes",
     "telephone": "+524492196201",
     "email": "fratelli.hotel@gmail.com",
-    "image": "{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}",
+    "image": "{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}",
     "priceRange": "$$$",
     "address": {
       "@type": "PostalAddress",
@@ -66,7 +66,7 @@
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.hotelfratelli.com.mx/" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.hotelfratelli.com.mx/hoteles-en-aguascalientes" }
     ]
   }
   </script>
@@ -110,6 +110,30 @@
     },
     {
       "@type": "Question",
+      "name": "¿Tienen hoteles baratos en Aguascalientes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Hotel Fratelli ofrece tarifas desde MXN $714.00 la noche con WiFi gratuito y recepción 24 horas incluidos. Somos una de las opciones de hoteles económicos en Aguascalientes con mejor relación calidad-precio de la ciudad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los precios de los hoteles en Aguascalientes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En Hotel Fratelli los precios van desde MXN $714.00 por noche en habitación sencilla hasta MXN $952.00 en Máster Suite. Puedes consultar todas las tarifas y disponibilidad en nuestra página de habitaciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Están cerca del aeropuerto de Aguascalientes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hotel Fratelli se encuentra a solo 15 minutos del Aeropuerto Internacional de Aguascalientes en auto. También estamos a 5 minutos de la Feria de San Marcos y a 10 minutos del Centro Histórico. Consulta cómo llegar en nuestra sección de ubicación."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "¿Están cerca de la Feria de San Marcos?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -126,7 +150,7 @@
     <!-- HERO -->
     <header class="hero" id="inicio">
         <div class="hero-bg" aria-hidden="true">
-            <img src="{{ asset('images/Hotel-frontal/hotel-fratelli-mejorada_dia.png') }}"
+            <img src="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}"
                 alt="Fachada del Hotel Fratelli de día, Aguascalientes"
                 title="Fachada del Hotel Fratelli de día, Aguascalientes" width="1498"
                 height="1050" fetchpriority="high" loading="eager" />
@@ -135,7 +159,7 @@
             <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
             <h1>Hotel Fratelli — Uno de los Mejores <em>Hoteles en Aguascalientes</em></h1>
             <p class="hero-sub">Uno de los hoteles en Aguascalientes mejor ubicados: 24 habitaciones cuidadosamente
-                diseñadas a 5 minutos de la <a href="{{ route("hoteles.feria") }}" style="text-decoration: underline;">Feria de San Marcos</a>. Recepción 24 horas, WiFi gratuito y vistas a la ciudad.
+                diseñadas a 5 minutos de la <a href="{{ route("hoteles.feria") }}" class="link-underline">Feria de San Marcos</a>. Recepción 24 horas, WiFi gratuito y vistas a la ciudad.
                 Tarifas desde MXN $714.00/noche.</p>
             <div class="hero-cta">
                 <a href="{{ route('habitaciones.index') }}" class="btn btn-gold" title="Ver habitaciones">Ver
@@ -169,7 +193,7 @@
             </div>
             <div class="why-split">
                 <div class="why-image reveal">
-                    <img src="{{ asset('images/Hotel-frontal/hotel-fratelli-noche.jpg') }}"
+                    <img src="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}"
                         alt="Lobby elegante del Hotel Fratelli en Aguascalientes" width="1280" height="1224"
                         loading="lazy" />
                 </div>
@@ -182,7 +206,7 @@
                             </svg></div>
                         <div>
                             <h3>Ubicación estratégica</h3>
-                            <p>A solo 5 minutos de la <a href="{{ route("hoteles.feria") }}" style="text-decoration: underline;">Feria de San Marcos</a> y zonas comerciales clave de Aguascalientes.</p>
+                            <p>A solo 5 minutos de la <a href="{{ route("hoteles.feria") }}" class="link-underline">Feria de San Marcos</a> y zonas comerciales clave de Aguascalientes.</p>
                         </div>
                     </div>
                     <div class="why-card reveal">
@@ -241,7 +265,7 @@
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">17 disponibles</span>
-                        <img src="{{ asset('images/Habitación17/Habitacion17-16.jpg') }}"
+                        <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}"
                             alt="Habitación sencilla Hotel Fratelli Aguascalientes" width="1024" height="681"
                             loading="lazy" />
                     </div>
@@ -259,7 +283,7 @@
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Popular</span>
-                        <img src="{{ asset('images/Habitación21/Habitacion21-20.jpg') }}"
+                        <img src="{{ asset('images/habitacion21/habitacion21-20.jpg') }}"
                             alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes"
                             width="1024" height="681" loading="lazy" />
                     </div>
@@ -277,7 +301,7 @@
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Recomendada</span>
-                        <img src="{{ asset('images/Habitación19/Habitacion19-40.jpg') }}"
+                        <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}"
                             alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024"
                             height="681" loading="lazy" />
                     </div>
@@ -296,7 +320,7 @@
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Premium</span>
-                        <img src="{{ asset('images/Habitación22/Habitacion22-1.jpg') }}"
+                        <img src="{{ asset('images/habitacion22/habitacion22-1.jpg') }}"
                             alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" width="1024" height="681"
                             loading="lazy" />
                     </div>
@@ -386,6 +410,7 @@
                 <p class="section-sub">Uno de los hoteles en Aguascalientes, México, mejor conectados: en el corazón de
                     Fraccionamiento Las Américas, a 5 minutos de la feria más importante del país. También somos una de las
                     {{-- {{ route('hoteles.centro') }} --}}
+                    {{-- TODO Sprint 2 SEO: href="#" roto, debe apuntar a route('hoteles.centro') — pendiente, no arreglar aún --}}
                     opciones de <a href="#"
                         title="Hoteles en el centro de Aguascalientes">hoteles en el centro de Aguascalientes</a> mejor
                     conectadas, a solo 10 minutos de Plaza de la Patria.</p>
@@ -406,7 +431,7 @@
                                 <path d="M12 22s-7-7.5-7-13a7 7 0 0114 0c0 5.5-7 13-7 13z" />
                                 <circle cx="12" cy="9" r="2.5" />
                             </svg>
-                            <div><strong>A 5 minutos</strong><span class="muted">de la <a href="{{ route('hoteles.feria') }}" style="text-decoration: underline;">Feria de San Marcos</a> en auto</span>
+                            <div><strong>A 5 minutos</strong><span class="muted">de la <a href="{{ route('hoteles.feria') }}" class="link-underline">Feria de San Marcos</a> en auto</span>
                             </div>
                         </div>
                         <div class="loc-row">
@@ -446,7 +471,7 @@
 
     <!-- REVIEWS — Carousel -->
     <section class="reviews reviews-dark" id="resenas" aria-labelledby="rev-title"
-        style="--rev-bg: url('{{ asset('images/Arcoiris/Arcoiris-3.jpg') }}');">
+        style="--rev-bg: url('{{ asset('images/arcoiris/arcoiris-3.jpg') }}');">
         <div class="container">
             <div class="section-head center reveal">
                 <span class="section-eyebrow">Lo que dicen de nosotros</span>
@@ -663,9 +688,7 @@
                 <div class="section-head reveal">
                     <span class="section-eyebrow">Reserva tu estancia</span>
                     <h2 id="contact-title">Reserva tu habitación en <em>Aguascalientes</em></h2>
-                    <p class="section-sub">Elegir entre los hoteles en Aguascalientes nunca fue tan fácil: envíanos tus fechas
-                        y un miembro de nuestro equipo te confirmará disponibilidad en menos de 2 horas.</p>
-                        <p class="section-sub" style="margin-bottom:28px;">La forma más rápida de reservar es directo por WhatsApp: cuéntanos tus fechas, tipo de habitación y número de huéspedes, y te confirmamos disponibilidad en menos de 2 horas.</p>
+                    <p class="section-sub" style="margin-bottom:28px;">Elegir entre los hoteles en Aguascalientes nunca fue tan fácil: la forma más rápida de reservar es directo por WhatsApp. Cuéntanos tus fechas, tipo de habitación y número de huéspedes, y te confirmamos disponibilidad en menos de 2 horas.</p>
                     <a href="https://wa.me/524492196201?text={{ urlencode('¡Hola Hotel Fratelli! Quiero reservar una habitación.') }}" target="_blank" rel="noopener" class="btn btn-gold form-submit">Reservar por WhatsApp</a>
 
                 </div>
@@ -797,6 +820,7 @@
                 </div>
 
                 {{-- NUEVA 1 — keyword parcial: hoteles baratos / económicos  {{ route('hoteles.economicos') }}--}}
+                {{-- TODO Sprint 2 SEO: href="#" roto, debe apuntar a route('hoteles.economicos') — pendiente, no arreglar aún --}}
                 <div class="faq-item reveal">
                     <h3>¿Tienen hoteles baratos en Aguascalientes?</h3>
                     <p>Sí. Hotel Fratelli ofrece tarifas desde MXN $714.00 la noche con WiFi gratuito y recepción 24 horas

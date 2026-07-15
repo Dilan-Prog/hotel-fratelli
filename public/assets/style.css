@@ -33,6 +33,7 @@ body {
 
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
+a.link-underline { text-decoration: underline; }
 button { font-family: inherit; cursor: pointer; }
 
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 28px; }
@@ -291,7 +292,7 @@ h2 {
   margin: 0 0 18px;
   text-wrap: balance;
 }
-h2 em { font-style: italic; color: var(--gold); font-weight: 400; }
+h2 em { font-style: italic; color: var(--gold-deep); font-weight: 400; }
 .section-sub {
   font-size: 16.5px;
   color: var(--grey-text);
@@ -869,7 +870,7 @@ footer {
   letter-spacing: -0.01em;
 }
 .room-info h1 em,
-.room-info h2 em { font-style: italic; color: var(--gold); font-weight: 400; }
+.room-info h2 em { font-style: italic; color: var(--gold-deep); font-weight: 400; }
 .room-eyebrow {
   display: inline-flex; align-items: center; gap: 12px;
   color: var(--gold);
