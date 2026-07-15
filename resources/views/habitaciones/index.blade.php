@@ -52,7 +52,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion17/habitacion17-16.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion17/habitacion17-16-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}" alt="Habitación Sencilla, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
@@ -66,7 +66,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion19/habitacion19-25.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion19/habitacion19-25-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion19/habitacion19-25.jpg') }}" alt="Habitación Doble con cama matrimonial, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
@@ -80,7 +80,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion19/habitacion19-40.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion19/habitacion19-40-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
@@ -94,7 +94,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion21/habitacion21-20.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion21/habitacion21-20-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion21/habitacion21-20.jpg') }}" alt="Habitación Doble con camas separadas, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
@@ -108,7 +108,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion22/habitacion22-1.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion22/habitacion22-1-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion22/habitacion22-1.jpg') }}" alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
@@ -122,7 +122,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion24/habitacion24-22.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion24/habitacion24-22-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion24/habitacion24-22.jpg') }}" alt="Habitación Triple, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
@@ -136,7 +136,7 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion21/habitacion21-1.webp') }}" type="image/webp">
+            <source srcset="{{ asset('images/habitacion21/habitacion21-1-sm.webp') }}" type="image/webp">
             <img src="{{ asset('images/habitacion21/habitacion21-1.jpg') }}" alt="Habitación Cuádruple, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">

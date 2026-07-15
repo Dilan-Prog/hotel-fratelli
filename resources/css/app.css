@@ -8,14 +8,14 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 100 900;
-  font-display: swap;
+  font-display: optional;
   src: url("/fonts/inter-var-latin.woff2") format("woff2");
 }
 @font-face {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400 900;
-  font-display: swap;
+  font-display: optional;
   src: url("/fonts/playfair-display-var-latin.woff2") format("woff2");
 }
 
@@ -47,6 +47,7 @@
   --gold: #C9973A;
   --gold-soft: #d9ac55;
   --gold-deep: #a87d2a;
+  --gold-a11y: #8a6422; /* ~4.9:1 sobre fondos claros (#F5F5F2/#FFFFFF), cumple WCAG AA para texto pequeño */
   --white: #FFFFFF;
   --grey-light: #F5F5F2;
   --grey-mid: #d6d6d1;
@@ -83,7 +84,7 @@ button { font-family: inherit; cursor: pointer; }
   z-index: 100;
   padding: 22px 0;
   background: transparent;
-  transition: background 0.35s ease, padding 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  transition: background 0.35s ease, padding 0.35s ease, border-color 0.35s ease;
   border-bottom: 1px solid transparent;
 }
 .navbar.scrolled,
@@ -104,6 +105,7 @@ button { font-family: inherit; cursor: pointer; }
 .logo-img {
   height: 60px;
   width: auto;
+  aspect-ratio: 125 / 84;
 }
 
 .nav-menu {
@@ -315,12 +317,20 @@ section { padding: 110px 0; position: relative; }
 .section-head.center .section-eyebrow { justify-content: center; }
 .section-eyebrow {
   display: inline-flex; align-items: center; gap: 12px;
-  color: var(--gold);
+  /* var(--gold) da ~2.4:1 sobre fondos claros (falla WCAG AA de 4.5:1 en texto pequeño).
+     --gold-a11y sí cumple; las secciones de fondo oscuro restauran var(--gold) abajo. */
+  color: var(--gold-a11y);
   font-size: 11.5px; letter-spacing: 0.32em;
   text-transform: uppercase;
   margin-bottom: 18px;
 }
-.section-eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--gold); }
+.section-eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--gold-a11y); }
+.rooms .section-eyebrow, .reviews-dark .section-eyebrow, .contact .section-eyebrow {
+  color: var(--gold);
+}
+.rooms .section-eyebrow::before, .reviews-dark .section-eyebrow::before, .contact .section-eyebrow::before {
+  background: var(--gold);
+}
 h2 {
   font-family: var(--serif);
   font-weight: 500;
@@ -742,7 +752,7 @@ h2 em { font-style: italic; color: var(--gold-deep); font-weight: 400; }
   color: var(--black);
   display: grid; place-items: center;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 .carousel-arrow:hover {
   background: var(--gold);

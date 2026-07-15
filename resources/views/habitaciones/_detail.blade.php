@@ -34,7 +34,7 @@
         @foreach ($thumbs as $thumb)
           <div class="g-thumb">
             <picture>
-              <source srcset="{{ asset(Str::replaceLast('.jpg', '.webp', $thumb)) }}" type="image/webp">
+              <source srcset="{{ asset(Str::replaceLast('.jpg', '-sm.webp', $thumb)) }}" type="image/webp">
               <img src="{{ asset($thumb) }}" alt="Detalle de {{ $roomName }}, Hotel Fratelli" width="1024" height="681" loading="lazy" />
             </picture>
           </div>

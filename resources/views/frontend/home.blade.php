@@ -272,7 +272,7 @@
                     <div class="room-image">
                         <span class="room-tag">17 disponibles</span>
                         <picture>
-                            <source srcset="{{ asset('images/habitacion17/habitacion17-16.webp') }}" type="image/webp">
+                            <source srcset="{{ asset('images/habitacion17/habitacion17-16-sm.webp') }}" type="image/webp">
                             <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}"
                                 alt="Habitación sencilla Hotel Fratelli Aguascalientes" width="1024" height="681"
                                 loading="lazy" />
@@ -286,13 +286,14 @@
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.sencilla') }}" class="room-cta" data-room-cta
                             data-room="Sencilla" title="Ver Habitación Sencilla" aria-label="Ver habitación Sencilla">Ver habitación</a>
+                    </div>
                 </article>
 
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Popular</span>
                         <picture>
-                            <source srcset="{{ asset('images/habitacion21/habitacion21-20.webp') }}" type="image/webp">
+                            <source srcset="{{ asset('images/habitacion21/habitacion21-20-sm.webp') }}" type="image/webp">
                             <img src="{{ asset('images/habitacion21/habitacion21-20.jpg') }}"
                                 alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes"
                                 width="1024" height="681" loading="lazy" />
@@ -306,13 +307,14 @@
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.doble') }}" class="room-cta" data-room-cta
                             data-room="Doble (camas separadas)" title="Ver Habitación Doble" aria-label="Ver habitación Doble">Ver habitación</a>
+                    </div>
                 </article>
 
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Recomendada</span>
                         <picture>
-                            <source srcset="{{ asset('images/habitacion19/habitacion19-40.webp') }}" type="image/webp">
+                            <source srcset="{{ asset('images/habitacion19/habitacion19-40-sm.webp') }}" type="image/webp">
                             <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}"
                                 alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024"
                                 height="681" loading="lazy" />
@@ -327,13 +329,14 @@
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.suite-jr') }}" class="room-cta" data-room-cta
                             data-room="Suite Jr" title="Ver Suite Jr" aria-label="Ver habitación Suite Jr">Ver habitación</a>
+                    </div>
                 </article>
 
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Premium</span>
                         <picture>
-                            <source srcset="{{ asset('images/habitacion22/habitacion22-1.webp') }}" type="image/webp">
+                            <source srcset="{{ asset('images/habitacion22/habitacion22-1-sm.webp') }}" type="image/webp">
                             <img src="{{ asset('images/habitacion22/habitacion22-1.jpg') }}"
                                 alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" width="1024" height="681"
                                 loading="lazy" />
@@ -347,6 +350,7 @@
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.master-suite') }}" class="room-cta" data-room-cta
                             data-room="Máster Suite" title="Ver Máster Suite" aria-label="Ver habitación Máster Suite">Ver habitación</a>
+                    </div>
                 </article>
 
             </div>
@@ -702,8 +706,8 @@
                             </svg></div>
                         <div class="info-content">
                             <div class="label">Teléfono</div>
-                            <div class="value"><a href="tel:+524492196201">449 219 6201</a><br /><a
-                                    href="tel:+524495963183">449 596 3183</a></div>
+                            <div class="value"><a href="tel:+524492196201" aria-label="Llamar al 449 219 6201">449 219 6201</a><br /><a
+                                    href="tel:+524495963183" aria-label="Llamar al 449 596 3183">449 596 3183</a></div>
                         </div>
                     </div>
                     <div class="info-row">
@@ -714,7 +718,7 @@
                             </svg></div>
                         <div class="info-content">
                             <div class="label">WhatsApp</div>
-                            <div class="value"><a href="https://wa.me/524492196201" target="_blank" rel="noopener">449
+                            <div class="value"><a href="https://wa.me/524492196201" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp al 449 219 6201">449
                                     219 6201</a></div>
                         </div>
                     </div>
