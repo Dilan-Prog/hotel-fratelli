@@ -13,7 +13,7 @@
       else navbar.classList.remove('scrolled');
     };
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
+    setTimeout(onScroll, 0);
   }
 
   // ===== BURGER menu =====
@@ -189,8 +189,10 @@
       }, 150);
     });
 
-    buildDots(getPerView());
-    syncState();
+    setTimeout(() => {
+      buildDots(getPerView());
+      syncState();
+    }, 0);
   }
 
   // ===== MAPA — lazy load (scroll o clic) =====

@@ -151,7 +151,15 @@
     <header class="hero" id="inicio">
         <div class="hero-bg" aria-hidden="true">
             <picture>
-                <source srcset="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.webp') }}" type="image/webp">
+                {{-- Set responsivo (primer srcset de varios anchos del sitio). Si se reemplaza la foto,
+                     regenerar las 4 variantes desde el .png sin comprimir, no desde el .webp ya comprimido. --}}
+                <source
+                    srcset="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia-640w.webp') }} 640w,
+                            {{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia-960w.webp') }} 960w,
+                            {{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia-1280w.webp') }} 1280w,
+                            {{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.webp') }} 1498w"
+                    sizes="100vw"
+                    type="image/webp">
                 <img src="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}"
                     alt="Fachada del Hotel Fratelli de día, Aguascalientes"
                     title="Fachada del Hotel Fratelli de día, Aguascalientes" width="1498"
