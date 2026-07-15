@@ -52,8 +52,8 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion17/habitacion17-16-sm.webp') }}" type="image/webp">
-            <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}" alt="Habitación Sencilla, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
+            <source srcset="{{ asset('images/habitacion21/habitacion21-1-sm.webp') }}" type="image/webp">
+            <img src="{{ asset('images/habitacion21/habitacion21-1.jpg') }}" alt="Habitación Sencilla, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
             <h3>Sencilla</h3>
@@ -80,8 +80,8 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion19/habitacion19-40-sm.webp') }}" type="image/webp">
-            <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
+            <source srcset="{{ asset('images/habitacion17/habitacion17-16-sm.webp') }}" type="image/webp">
+            <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}" alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
             <h3>Suite Jr</h3>
@@ -121,10 +121,12 @@
         </article>
 
         <article class="catalog-card reveal">
-          <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion24/habitacion24-22-sm.webp') }}" type="image/webp">
-            <img src="{{ asset('images/habitacion24/habitacion24-22.jpg') }}" alt="Habitación Triple, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
-          </picture></div>
+          <div class="cc-image">
+            <div class="photo-placeholder">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M21 15l-5-4-4 3-3-2-6 5"/></svg>
+              <span>Fotos próximamente</span>
+            </div>
+          </div>
           <div class="cc-body">
             <h3>Triple</h3>
             <div class="cc-feats"><span>3 personas</span><span>Matrimonial + individual</span></div>
@@ -136,8 +138,8 @@
 
         <article class="catalog-card reveal">
           <div class="cc-image"><picture>
-            <source srcset="{{ asset('images/habitacion21/habitacion21-1-sm.webp') }}" type="image/webp">
-            <img src="{{ asset('images/habitacion21/habitacion21-1.jpg') }}" alt="Habitación Cuádruple, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
+            <source srcset="{{ asset('images/habitacion19/habitacion19-40-sm.webp') }}" type="image/webp">
+            <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}" alt="Habitación Cuádruple, Hotel Fratelli Aguascalientes" width="1024" height="681" loading="lazy" />
           </picture></div>
           <div class="cc-body">
             <h3>Cuádruple</h3>

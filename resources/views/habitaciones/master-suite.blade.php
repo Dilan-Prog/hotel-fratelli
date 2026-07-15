@@ -28,7 +28,7 @@
     'eyebrow' => 'Para 2 personas · Desde $952.00 MXN',
     'heroSub' => '1 cama King · Acabados premium · WiFi gratuito',
     'mainImg' => 'images/habitacion22/habitacion22-1.jpg',
-    'thumbs' => ['images/habitacion22/habitacion22-25.jpg', 'images/habitacion22/habitacion22-15.jpg', 'images/habitacion22/habitacion22-8.jpg'],
+    'thumbs' => ['images/habitacion22/habitacion22-25.jpg', 'images/habitacion24/habitacion24-22.jpg', 'images/habitacion24/habitacion24-8.jpg'],
     'desc' => 'Para 2 personas, 1 cama King. Nuestra habitación insignia, con los acabados más premium del hotel.',
     'feats' => ['1 cama King', 'Para 2 personas', 'Baño premium', 'WiFi gratuito'],
     'priceAmount' => '952.00',

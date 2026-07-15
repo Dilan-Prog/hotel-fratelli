@@ -47,8 +47,10 @@
     "amenityFeature": [
       { "@type": "LocationFeatureSpecification", "name": "WiFi gratuito", "value": true },
       { "@type": "LocationFeatureSpecification", "name": "Recepción 24 horas", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Balcón", "value": true }
+      { "@type": "LocationFeatureSpecification", "name": "Balcón", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Espacio libre de humo", "value": true }
     ],
+    "petsAllowed": false,
     "numberOfRooms": 24,
     "checkinTime": "14:00",
     "checkoutTime": "12:00",
@@ -97,7 +99,7 @@
       "name": "¿Se aceptan mascotas en el Hotel Fratelli Aguascalientes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Si viajas con una mascota, contáctanos antes de reservar para confirmar disponibilidad y condiciones. Así nos aseguramos de que tanto tú como ella tengan una buena estancia."
+        "text": "No, Hotel Fratelli no acepta mascotas. Además, somos un hotel 100% libre de humo en todas sus áreas, incluidas las habitaciones."
       }
     },
     {
@@ -280,8 +282,8 @@
                     <div class="room-image">
                         <span class="room-tag">17 disponibles</span>
                         <picture>
-                            <source srcset="{{ asset('images/habitacion17/habitacion17-16-sm.webp') }}" type="image/webp">
-                            <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}"
+                            <source srcset="{{ asset('images/habitacion21/habitacion21-1-sm.webp') }}" type="image/webp">
+                            <img src="{{ asset('images/habitacion21/habitacion21-1.jpg') }}"
                                 alt="Habitación sencilla Hotel Fratelli Aguascalientes" width="1024" height="681"
                                 loading="lazy" />
                         </picture>
@@ -322,8 +324,8 @@
                     <div class="room-image">
                         <span class="room-tag">Recomendada</span>
                         <picture>
-                            <source srcset="{{ asset('images/habitacion19/habitacion19-40-sm.webp') }}" type="image/webp">
-                            <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}"
+                            <source srcset="{{ asset('images/habitacion17/habitacion17-16-sm.webp') }}" type="image/webp">
+                            <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}"
                                 alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024"
                                 height="681" loading="lazy" />
                         </picture>
@@ -422,6 +424,15 @@
                         </svg></div>
                     <h3>Habitaciones confortables</h3>
                     <p>Colchones premium, blancos de algodón y cortinas blackout para el descanso que mereces.</p>
+                </div>
+                <div class="service reveal">
+                    <div class="service-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M8.5 8.5l7 7M15.5 8.5l-7 7" />
+                        </svg></div>
+                    <h3>Hotel libre de humo</h3>
+                    <p>Todas nuestras áreas, incluidas las habitaciones, son 100% libres de humo.</p>
                 </div>
             </div>
         </div>
@@ -818,8 +829,8 @@
                 {{-- EXISTENTE 3 — sin link (no aplica redirección) --}}
                 <div class="faq-item reveal">
                     <h3>¿Se aceptan mascotas en el Hotel Fratelli Aguascalientes?</h3>
-                    <p>Si viajas con una mascota, contáctanos antes de reservar para confirmar disponibilidad y condiciones.
-                        Así nos aseguramos de que tanto tú como ella tengan una buena estancia.</p>
+                    <p>No, Hotel Fratelli no acepta mascotas. Además, somos un hotel 100% libre de humo en todas sus áreas,
+                        incluidas las habitaciones.</p>
                 </div>
 
                 {{-- EXISTENTE 4 — link a reserva directa --}}
