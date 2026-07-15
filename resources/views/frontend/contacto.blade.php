@@ -67,7 +67,10 @@
         </div>
 
         <div class="map-frame reveal" role="img" aria-label="Mapa de Aguascalientes">
-          <img src="{{ asset('images/arcoiris/arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" loading="lazy" />
+          <picture>
+            <source srcset="{{ asset('images/arcoiris/arcoiris-1.webp') }}" type="image/webp">
+            <img src="{{ asset('images/arcoiris/arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" width="1024" height="681" loading="lazy" />
+          </picture>
           <div class="map-pin" aria-hidden="true"><div class="label">Hotel Fratelli</div><div class="dot"></div></div>
         </div>
       </div>

@@ -2,7 +2,12 @@
      $roomNameHtml, $roomName, $eyebrow, $heroSub, $mainImg, $thumbs (array de 3),
      $desc, $feats (array de strings), $priceAmount, $breadcrumbLabel --}}
 <header class="hero hero-small">
-  <div class="hero-bg" aria-hidden="true"><img src="{{ asset($mainImg) }}" alt="{{ $roomName }}, Hotel Fratelli Aguascalientes" /></div>
+  <div class="hero-bg" aria-hidden="true">
+    <picture>
+      <source srcset="{{ asset(Str::replaceLast('.jpg', '.webp', $mainImg)) }}" type="image/webp">
+      <img src="{{ asset($mainImg) }}" alt="{{ $roomName }}, Hotel Fratelli Aguascalientes" width="1024" height="681" fetchpriority="high" loading="eager" />
+    </picture>
+  </div>
   <div class="container hero-inner">
     <span class="hero-eyebrow">{{ $eyebrow }}</span>
     <h1>Habitación {!! $roomNameHtml !!}</h1>
@@ -20,9 +25,19 @@
   <div class="container">
     <div class="room-detail-grid">
       <div class="gallery reveal">
-        <div class="g-main"><img src="{{ asset($mainImg) }}" alt="{{ $roomName }} — vista general" /></div>
+        <div class="g-main">
+          <picture>
+            <source srcset="{{ asset(Str::replaceLast('.jpg', '.webp', $mainImg)) }}" type="image/webp">
+            <img src="{{ asset($mainImg) }}" alt="{{ $roomName }} — vista general" width="1024" height="681" loading="lazy" />
+          </picture>
+        </div>
         @foreach ($thumbs as $thumb)
-          <div class="g-thumb"><img src="{{ asset($thumb) }}" alt="Detalle de {{ $roomName }}, Hotel Fratelli" loading="lazy" /></div>
+          <div class="g-thumb">
+            <picture>
+              <source srcset="{{ asset(Str::replaceLast('.jpg', '.webp', $thumb)) }}" type="image/webp">
+              <img src="{{ asset($thumb) }}" alt="Detalle de {{ $roomName }}, Hotel Fratelli" width="1024" height="681" loading="lazy" />
+            </picture>
+          </div>
         @endforeach
       </div>
 

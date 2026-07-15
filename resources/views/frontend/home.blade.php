@@ -150,10 +150,13 @@
     <!-- HERO -->
     <header class="hero" id="inicio">
         <div class="hero-bg" aria-hidden="true">
-            <img src="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}"
-                alt="Fachada del Hotel Fratelli de día, Aguascalientes"
-                title="Fachada del Hotel Fratelli de día, Aguascalientes" width="1498"
-                height="1050" fetchpriority="high" loading="eager" />
+            <picture>
+                <source srcset="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.webp') }}" type="image/webp">
+                <img src="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}"
+                    alt="Fachada del Hotel Fratelli de día, Aguascalientes"
+                    title="Fachada del Hotel Fratelli de día, Aguascalientes" width="1498"
+                    height="1050" fetchpriority="high" loading="eager" />
+            </picture>
         </div>
         <div class="container hero-inner">
             <span class="hero-eyebrow">Hotel boutique · Aguascalientes</span>
@@ -193,9 +196,12 @@
             </div>
             <div class="why-split">
                 <div class="why-image reveal">
-                    <img src="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}"
-                        alt="Lobby elegante del Hotel Fratelli en Aguascalientes" width="1280" height="1224"
-                        loading="lazy" />
+                    <picture>
+                        <source srcset="{{ asset('images/hotel-frontal/hotel-fratelli-noche.webp') }}" type="image/webp">
+                        <img src="{{ asset('images/hotel-frontal/hotel-fratelli-noche.jpg') }}"
+                            alt="Lobby elegante del Hotel Fratelli en Aguascalientes" width="1280" height="1224"
+                            loading="lazy" />
+                    </picture>
                 </div>
                 <div class="why-list">
                     <div class="why-card reveal">
@@ -265,9 +271,12 @@
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">17 disponibles</span>
-                        <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}"
-                            alt="Habitación sencilla Hotel Fratelli Aguascalientes" width="1024" height="681"
-                            loading="lazy" />
+                        <picture>
+                            <source srcset="{{ asset('images/habitacion17/habitacion17-16.webp') }}" type="image/webp">
+                            <img src="{{ asset('images/habitacion17/habitacion17-16.jpg') }}"
+                                alt="Habitación sencilla Hotel Fratelli Aguascalientes" width="1024" height="681"
+                                loading="lazy" />
+                        </picture>
                     </div>
                     <div class="room-body">
                         <h3>Sencilla</h3>
@@ -276,16 +285,18 @@
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$714.00</span><span
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.sencilla') }}" class="room-cta" data-room-cta
-                            data-room="Sencilla" title="Ver Habitación Sencilla">Ver habitación</a>
-                    </div>
+                            data-room="Sencilla" title="Ver Habitación Sencilla" aria-label="Ver habitación Sencilla">Ver habitación</a>
                 </article>
 
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Popular</span>
-                        <img src="{{ asset('images/habitacion21/habitacion21-20.jpg') }}"
-                            alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes"
-                            width="1024" height="681" loading="lazy" />
+                        <picture>
+                            <source srcset="{{ asset('images/habitacion21/habitacion21-20.webp') }}" type="image/webp">
+                            <img src="{{ asset('images/habitacion21/habitacion21-20.jpg') }}"
+                                alt="Habitación doble con dos camas individuales, Hotel Fratelli Aguascalientes"
+                                width="1024" height="681" loading="lazy" />
+                        </picture>
                     </div>
                     <div class="room-body">
                         <h3>Doble</h3>
@@ -294,16 +305,18 @@
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$952.00</span><span
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.doble') }}" class="room-cta" data-room-cta
-                            data-room="Doble (camas separadas)" title="Ver Habitación Doble">Ver habitación</a>
-                    </div>
+                            data-room="Doble (camas separadas)" title="Ver Habitación Doble" aria-label="Ver habitación Doble">Ver habitación</a>
                 </article>
 
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Recomendada</span>
-                        <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}"
-                            alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024"
-                            height="681" loading="lazy" />
+                        <picture>
+                            <source srcset="{{ asset('images/habitacion19/habitacion19-40.webp') }}" type="image/webp">
+                            <img src="{{ asset('images/habitacion19/habitacion19-40.jpg') }}"
+                                alt="Suite Junior con vista a la ciudad, Hotel Fratelli Aguascalientes" width="1024"
+                                height="681" loading="lazy" />
+                        </picture>
                     </div>
                     <div class="room-body">
                         <h3>Suite Jr</h3>
@@ -313,16 +326,18 @@
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$892.50</span><span
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.suite-jr') }}" class="room-cta" data-room-cta
-                            data-room="Suite Jr" title="Ver Suite Jr">Ver habitación</a>
-                    </div>
+                            data-room="Suite Jr" title="Ver Suite Jr" aria-label="Ver habitación Suite Jr">Ver habitación</a>
                 </article>
 
                 <article class="room-card reveal">
                     <div class="room-image">
                         <span class="room-tag">Premium</span>
-                        <img src="{{ asset('images/habitacion22/habitacion22-1.jpg') }}"
-                            alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" width="1024" height="681"
-                            loading="lazy" />
+                        <picture>
+                            <source srcset="{{ asset('images/habitacion22/habitacion22-1.webp') }}" type="image/webp">
+                            <img src="{{ asset('images/habitacion22/habitacion22-1.jpg') }}"
+                                alt="Máster Suite con cama king, Hotel Fratelli Aguascalientes" width="1024" height="681"
+                                loading="lazy" />
+                        </picture>
                     </div>
                     <div class="room-body">
                         <h3>Máster Suite</h3>
@@ -331,8 +346,7 @@
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$952.00</span><span
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.master-suite') }}" class="room-cta" data-room-cta
-                            data-room="Máster Suite" title="Ver Máster Suite">Ver habitación</a>
-                    </div>
+                            data-room="Máster Suite" title="Ver Máster Suite" aria-label="Ver habitación Máster Suite">Ver habitación</a>
                 </article>
 
             </div>
@@ -458,12 +472,18 @@
                         target="_blank" rel="noopener" title="Abrir en Google Maps">Ver en Google Maps</a>
                 </div>
 
-                <div class="map-frame reveal">
-                    <iframe src="https://www.google.com/maps?q=21.8778,-102.2962&hl=es&z=16&output=embed" width="100%"
-                        height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Ubicación de Hotel Fratelli en Aguascalientes, Google Maps">
-                    </iframe>
+                <div class="map-frame reveal" data-map-lazy
+                    data-map-src="https://www.google.com/maps?q=21.8778,-102.2962&hl=es&z=16&output=embed"
+                    data-map-title="Ubicación de Hotel Fratelli en Aguascalientes, Google Maps">
+                    <button type="button" class="map-placeholder" data-map-trigger
+                        aria-label="Cargar mapa interactivo con la ubicación de Hotel Fratelli">
+                        <svg class="map-placeholder-pin" width="34" height="34" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                            <path d="M12 22s-7-7.5-7-13a7 7 0 0114 0c0 5.5-7 13-7 13z" />
+                            <circle cx="12" cy="9" r="2.5" />
+                        </svg>
+                        <span class="map-placeholder-label">Ver mapa interactivo</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -489,8 +509,7 @@
             <div class="carousel reveal" data-carousel aria-roledescription="carrusel" aria-label="Reseñas de huéspedes">
                 <div class="carousel-track" tabindex="0">
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">El hotel está muy bien ubicado, a unos minutos de la Feria. La
                                 habitación impecable, cama súper cómoda y el personal de recepción muy atento incluso de
@@ -503,11 +522,9 @@
                                 </div>
                                 <div class="review-source">Google</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">Vine por trabajo y terminé recomendándolo a todo el equipo. La relación
                                 calidad-precio es excelente, el WiFi es estable y el balcón es un plus para terminar el día.
@@ -520,11 +537,9 @@
                                 </div>
                                 <div class="review-source">Google</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">Nos quedamos durante la Feria de San Marcos y fue la mejor decisión.
                                 Cinco minutos en auto y de regreso un descanso real. La Máster Suite vale cada peso.
@@ -537,11 +552,9 @@
                                 </div>
                                 <div class="review-source">Booking</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="4 de 5 estrellas">★★★★☆</div>
                             <p class="review-text">Buena ubicación, habitaciones limpias y muy buen desayuno (lo pedimos en
                                 habitación). Volveremos.</p>
@@ -553,11 +566,9 @@
                                 </div>
                                 <div class="review-source">Google</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">Lo mejor: la atención. Desde el check-in nos sentimos en familia.
                                 Habitación amplia, baño impecable y el balcón con la vista de la ciudad es algo que no
@@ -570,11 +581,9 @@
                                 </div>
                                 <div class="review-source">Booking</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="4 de 5 estrellas">★★★★☆</div>
                             <p class="review-text">Excelente opción si vienes por la Feria. Habitación cómoda, sábanas
                                 suaves, agua caliente al instante. El WiFi es rápido y la recepción siempre responde.
@@ -587,11 +596,9 @@
                                 </div>
                                 <div class="review-source">Google</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">Viajamos con dos niños y la habitación doble fue perfecta. Recepción
                                 ayudó con cuna sin cargo y nos recomendaron lugares para comer cerca. Hospitalidad real.</p>
@@ -603,11 +610,9 @@
                                 </div>
                                 <div class="review-source">Booking</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">Estancia de negocios de 4 noches. Habitación silenciosa, escritorio
                                 amplio, WiFi sin caídas. La opción ideal cuando vienes a trabajar a Aguascalientes y no
@@ -620,11 +625,9 @@
                                 </div>
                                 <div class="review-source">Google</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="4 de 5 estrellas">★★★★☆</div>
                             <p class="review-text">Hotel limpio y bien cuidado. El check-in fue rápido y nos dieron un mapa
                                 con recomendaciones de la ciudad. La cama de la Suite Jr es comodísima. Volvería sin
@@ -637,11 +640,9 @@
                                 </div>
                                 <div class="review-source">Google</div>
                             </div>
-                        </div>
                     </article>
 
-                    <article class="carousel-card">
-                        <div class="review">
+                    <article class="carousel-card review">
                             <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
                             <p class="review-text">Vine sola por trabajo y me sentí completamente segura. Recepción 24h se
                                 nota: llegué a las 2 am sin problema. Habitación cálida, baño impecable. Es mi hotel base en
@@ -654,7 +655,6 @@
                                 </div>
                                 <div class="review-source">Booking</div>
                             </div>
-                        </div>
                     </article>
 
                 </div>

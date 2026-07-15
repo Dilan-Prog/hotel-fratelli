@@ -15,11 +15,25 @@
   <link rel="icon" type="image/png" href="{{ asset('images/favicon/icon-192x192.png') }}" sizes="192x192" />
   <link rel="icon" type="image/png" href="{{ asset('images/favicon/icon-512x512.png') }}" sizes="512x512" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+  {{-- Fuentes autohospedadas: precarga directa (sin dependencia de red a Google) --}}
+  <link rel="preload" as="font" type="font/woff2" href="{{ asset('fonts/inter-var-latin.woff2') }}" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="{{ asset('fonts/playfair-display-var-latin.woff2') }}" crossorigin>
+
+  {{-- CSS propio: preload de alta prioridad sin bloquear el primer render (patrón preload + swap).
+       El swap se aplica vía JS con nonce (no onload inline) para mantener una CSP sin 'unsafe-inline' en script-src. --}}
+  <link id="app-css-preload" rel="preload" as="style" href="{{ \Illuminate\Support\Facades\Vite::asset('resources/css/app.css') }}" />
+  <noscript><link rel="stylesheet" href="{{ \Illuminate\Support\Facades\Vite::asset('resources/css/app.css') }}" /></noscript>
+  <script nonce="{{ $cspNonce }}">
+    (function () {
+      var link = document.getElementById('app-css-preload');
+      if (!link) return;
+      link.addEventListener('load', function () { link.rel = 'stylesheet'; });
+    })();
+  </script>
+
+  @vite(['resources/js/app.js'])
 
   @stack('head')
 </head>

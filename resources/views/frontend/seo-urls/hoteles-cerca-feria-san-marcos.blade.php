@@ -47,7 +47,12 @@
 
 @section('content')
   <header class="hero hero-medium">
-    <div class="hero-bg" aria-hidden="true"><img src="{{ asset('images/arcoiris/arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" /></div>
+    <div class="hero-bg" aria-hidden="true">
+      <picture>
+        <source srcset="{{ asset('images/arcoiris/arcoiris-1.webp') }}" type="image/webp">
+        <img src="{{ asset('images/arcoiris/arcoiris-1.jpg') }}" alt="Vista de Aguascalientes desde Hotel Fratelli, con arcoíris" width="1024" height="681" fetchpriority="high" loading="eager" />
+      </picture>
+    </div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">A 5 minutos del recinto ferial</span>
       <h1>Hotel a 5 Minutos de la <em>Feria de San Marcos</em>, Aguascalientes</h1>

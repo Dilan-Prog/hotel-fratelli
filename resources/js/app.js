@@ -99,27 +99,30 @@
     const slides = [...track.children];
     if (!slides.length) return;
 
-    // Build dots based on visible-page count
-    const buildDots = () => {
-      if (!dotsWrap) return;
-      const perView = getPerView();
-      const pages = Math.max(1, Math.ceil(slides.length / perView));
-      dotsWrap.innerHTML = '';
-      for (let i = 0; i < pages; i++) {
-        const d = document.createElement('button');
-        d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
-        d.type = 'button';
-        d.setAttribute('aria-label', `Ir al grupo ${i + 1}`);
-        d.addEventListener('click', () => goToPage(i));
-        dotsWrap.appendChild(d);
-      }
-    };
-
     const getPerView = () => {
       const w = window.innerWidth;
       if (w <= 680) return 1;
       if (w <= 980) return 2;
       return 3;
+    };
+
+    // Build dots based on visible-page count
+    const buildDots = (perView) => {
+      if (!dotsWrap) return;
+      const pages = Math.max(1, Math.ceil(slides.length / perView));
+      const frag = document.createDocumentFragment();
+      for (let i = 0; i < pages; i++) {
+        const d = document.createElement('button');
+        d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+        d.type = 'button';
+        d.setAttribute('role', 'tab');
+        d.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+        d.setAttribute('aria-label', `Ir al grupo ${i + 1}`);
+        d.addEventListener('click', () => goToPage(i));
+        frag.appendChild(d);
+      }
+      dotsWrap.innerHTML = '';
+      dotsWrap.appendChild(frag);
     };
 
     const goToPage = (pageIdx) => {
@@ -130,28 +133,34 @@
       track.scrollTo({ left, behavior: 'smooth' });
     };
 
-    const updateActiveDot = () => {
-      if (!dotsWrap) return;
+    // Lee toda la geometría necesaria primero y aplica los cambios de DOM después:
+    // alternar lecturas (offsetLeft/scrollWidth) y escrituras (classList/disabled)
+    // forzaba reflows síncronos en cada scroll/resize.
+    const syncState = () => {
       const perView = getPerView();
       const scrollLeft = track.scrollLeft;
+      const maxScroll = track.scrollWidth - track.clientWidth - 2;
+      const trackOffsetLeft = track.offsetLeft;
+      const dots = dotsWrap ? dotsWrap.querySelectorAll('.carousel-dot') : [];
+
       let closest = 0;
       let minDist = Infinity;
-      const dots = dotsWrap.querySelectorAll('.carousel-dot');
       for (let i = 0; i < dots.length; i++) {
         const slideEl = slides[i * perView];
         if (!slideEl) continue;
-        const offset = slideEl.offsetLeft - track.offsetLeft;
-        const dist = Math.abs(scrollLeft - offset);
+        const dist = Math.abs(scrollLeft - (slideEl.offsetLeft - trackOffsetLeft));
         if (dist < minDist) { minDist = dist; closest = i; }
       }
-      dots.forEach((d, i) => d.classList.toggle('active', i === closest));
-    };
 
-    const updateArrows = () => {
-      if (!prev || !next) return;
-      const max = track.scrollWidth - track.clientWidth - 2;
-      prev.disabled = track.scrollLeft <= 2;
-      next.disabled = track.scrollLeft >= max;
+      dots.forEach((d, i) => {
+        const active = i === closest;
+        d.classList.toggle('active', active);
+        d.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      if (prev && next) {
+        prev.disabled = scrollLeft <= 2;
+        next.disabled = scrollLeft >= maxScroll;
+      }
     };
 
     const scrollByPage = (dir) => {
@@ -168,24 +177,58 @@
     if (next) next.addEventListener('click', () => scrollByPage(1));
 
     track.addEventListener('scroll', () => {
-      window.requestAnimationFrame(() => {
-        updateActiveDot();
-        updateArrows();
-      });
+      window.requestAnimationFrame(syncState);
     }, { passive: true });
 
     let resizeT;
     window.addEventListener('resize', () => {
       clearTimeout(resizeT);
       resizeT = setTimeout(() => {
-        buildDots();
-        updateActiveDot();
-        updateArrows();
+        buildDots(getPerView());
+        syncState();
       }, 150);
     });
 
-    buildDots();
-    updateActiveDot();
-    updateArrows();
+    buildDots(getPerView());
+    syncState();
+  }
+
+  // ===== MAPA — lazy load (scroll o clic) =====
+  document.querySelectorAll('[data-map-lazy]').forEach(initLazyMap);
+
+  function initLazyMap(container) {
+    const src = container.dataset.mapSrc;
+    const title = container.dataset.mapTitle || 'Mapa';
+    const trigger = container.querySelector('[data-map-trigger]');
+    let loaded = false;
+
+    const loadMap = () => {
+      if (loaded || !src) return;
+      loaded = true;
+      const iframe = document.createElement('iframe');
+      iframe.src = src;
+      iframe.width = '100%';
+      iframe.height = '100%';
+      iframe.style.border = '0';
+      iframe.loading = 'lazy';
+      iframe.referrerPolicy = 'no-referrer-when-downgrade';
+      iframe.title = title;
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    };
+
+    if (trigger) trigger.addEventListener('click', loadMap);
+
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            loadMap();
+            io.unobserve(e.target);
+          }
+        });
+      }, { rootMargin: '200px 0px', threshold: 0 });
+      io.observe(container);
+    }
   }
 })();
