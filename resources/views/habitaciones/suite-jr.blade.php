@@ -26,11 +26,11 @@
     'roomNameHtml' => '<em>Suite Jr</em>',
     'breadcrumbLabel' => 'Suite Jr',
     'eyebrow' => 'Para 2 personas · Desde $892.50 MXN',
-    'heroSub' => '1 cama Queen · Sala de estar · Vista a la ciudad',
+    'heroSub' => '1 cama Queen · Vista a la ciudad',
     'mainImg' => 'images/habitacion17/habitacion17-16.jpg',
     'thumbs' => ['images/habitacion17/habitacion17-2.jpg', 'images/habitacion17/habitacion17-9.jpg', 'images/habitacion17/habitacion17-19.jpg'],
-    'desc' => 'Para 2 personas, 1 cama Queen. Sala de estar separada y vista a la ciudad — el equilibrio entre espacio y precio.',
-    'feats' => ['1 cama Queen', 'Para 2 personas', 'Sala de estar', 'Vista a la ciudad'],
+    'desc' => 'Para 2 personas, 1 cama Queen. Vista a la ciudad y amplio espacio — el equilibrio entre espacio y precio.',
+    'feats' => ['1 cama Queen', 'Para 2 personas', 'Vista a la ciudad'],
     'priceAmount' => '892.50',
   ])
 @endsection

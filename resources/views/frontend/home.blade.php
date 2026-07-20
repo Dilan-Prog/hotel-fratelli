@@ -332,9 +332,9 @@
                     </div>
                     <div class="room-body">
                         <h3>Suite Jr</h3>
-                        <p>Sala de estar separada, vista a la ciudad y baño en mármol. El equilibrio entre espacio y precio.
+                        <p>Vista a la ciudad y amplio espacio. El equilibrio entre espacio y precio.
                         </p>
-                        <div class="room-feats"><span>Queen</span><span>Sala</span><span>Vista ciudad</span></div>
+                        <div class="room-feats"><span>Queen</span><span>Vista ciudad</span></div>
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$892.50</span><span
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.suite-jr') }}" class="room-cta" data-room-cta
@@ -354,8 +354,8 @@
                     </div>
                     <div class="room-body">
                         <h3>Máster Suite</h3>
-                        <p>Nuestra suite insignia con sala lounge y acceso a balcón con vistas panorámicas.</p>
-                        <div class="room-feats"><span>King</span><span>Balcón</span></div>
+                        <p>Nuestra suite insignia, con los acabados más premium del hotel.</p>
+                        <div class="room-feats"><span>King</span><span>Baño premium</span></div>
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$952.00</span><span
                                 class="unit">MXN / noche</span></div>
                         <a href="{{ route('habitaciones.master-suite') }}" class="room-cta" data-room-cta

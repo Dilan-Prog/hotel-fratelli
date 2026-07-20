@@ -86,7 +86,7 @@
           <div class="cc-body">
             <h3>Suite Jr</h3>
             <div class="cc-feats"><span>2 personas</span><span>1 Queen</span></div>
-            <p>Para 2 personas, 1 cama Queen. Sala de estar separada y vista a la ciudad. El equilibrio entre espacio y precio.</p>
+            <p>Para 2 personas, 1 cama Queen. Vista a la ciudad y amplio espacio. El equilibrio entre espacio y precio.</p>
             <div class="cc-price"><span class="from">Desde</span><span class="amount">$892.50</span><span class="unit">MXN / noche</span></div>
             <a href="{{ route('habitaciones.suite-jr') }}" class="btn btn-gold">Ver habitación</a>
           </div>
