@@ -27,7 +27,20 @@
 
 @section('content')
   <header class="hero hero-small">
-    <div class="hero-bg" aria-hidden="true"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80" alt="Hotel Fratelli Aguascalientes — Contacto" /></div>
+    <div class="hero-bg" aria-hidden="true">
+      <picture>
+        <source
+          srcset="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia-640w.webp') }} 640w,
+                  {{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia-960w.webp') }} 960w,
+                  {{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia-1280w.webp') }} 1280w,
+                  {{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.webp') }} 1498w"
+          sizes="100vw"
+          type="image/webp">
+        <img src="{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}"
+          alt="Hotel Fratelli Aguascalientes — Contacto" width="1498" height="1050"
+          loading="lazy" />
+      </picture>
+    </div>
     <div class="container hero-inner">
       <span class="hero-eyebrow">Recepción 24 horas · 449 219 6201</span>
       <h1>Contacta al <em>Hotel Fratelli</em> en Aguascalientes</h1>

@@ -310,7 +310,7 @@
                         </picture>
                     </div>
                     <div class="room-body">
-                        <h3>Doble</h3>
+                        <h3>Habitación Triple</h3>
                         <p>Dos camas individuales o una matrimonial king. Perfecta para amigos o familia compacta.</p>
                         <div class="room-feats"><span>2 camas</span><span>WiFi</span><span>Escritorio</span></div>
                         <div class="room-price"><span class="from">Desde</span><span class="amount">$952.00</span><span
