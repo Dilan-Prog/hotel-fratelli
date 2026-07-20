@@ -91,7 +91,7 @@
       "name": "¿El hotel cuenta con estacionamiento?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Consulta disponibilidad de estacionamiento directamente con nosotros al reservar, por teléfono o WhatsApp — con gusto te confirmamos las opciones para tu vehículo antes de tu llegada."
+        "text": "No contamos con estacionamiento propio. Sin embargo, hay opciones de estacionamiento público cerca del hotel; contáctanos por teléfono o WhatsApp y con gusto te orientamos."
       }
     },
     {
@@ -491,12 +491,12 @@
                         </div>
                     </div>
                     <a class="btn btn-gold"
-                        href="https://maps.google.com/?q=República+de+Brasil+627+Las+Américas+Aguascalientes"
+                        href="https://maps.app.goo.gl/q7Rm8dwjyLH9MMdR9"
                         target="_blank" rel="noopener" title="Abrir en Google Maps">Ver en Google Maps</a>
                 </div>
 
                 <div class="map-frame reveal" data-map-lazy
-                    data-map-src="https://www.google.com/maps?q=21.8778,-102.2962&hl=es&z=16&output=embed"
+                    data-map-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.8077595543464!2d-102.30242408849584!3d21.8649496799185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429edd4ba99fb17%3A0x7e8894b4d3fba2e5!2sHotel%20Fratelli!5e0!3m2!1ses-419!2smx!4v1784524129050!5m2!1ses-419!2smx"
                     data-map-title="Ubicación de Hotel Fratelli en Aguascalientes, Google Maps">
                     <button type="button" class="map-placeholder" data-map-trigger
                         aria-label="Cargar mapa interactivo con la ubicación de Hotel Fratelli">
@@ -822,8 +822,8 @@
                 {{-- EXISTENTE 2 — sin link (no aplica redirección) --}}
                 <div class="faq-item reveal">
                     <h3>¿El hotel cuenta con estacionamiento?</h3>
-                    <p>Consulta disponibilidad de estacionamiento directamente con nosotros al reservar, por teléfono o
-                        WhatsApp — con gusto te confirmamos las opciones para tu vehículo antes de tu llegada.</p>
+                    <p>No contamos con estacionamiento propio. Sin embargo, hay opciones de estacionamiento público
+                        cerca del hotel; contáctanos por teléfono o WhatsApp y con gusto te orientamos.</p>
                 </div>
 
                 {{-- EXISTENTE 3 — sin link (no aplica redirección) --}}
