@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {{-- RankPro Solutions: tracking de conversiones para Google Ads. Debe cargar
+       de los primeros en el <head>, antes de cualquier otro script, para
+       capturar correctamente los datos de atribución de la conversión. --}}
+  <script src="https://rankprosolutions.com.mx/api/tracking/snippet/rp_live_PgK7HZutfmM2NK2zI931kQM3zwizcYB5EzdeOaAOb7GCIPC6sf2P1Dam.js"></script>
+
   <title>@yield('title', 'Hotel Fratelli Aguascalientes | Reservas desde $714.00/noche')</title>
   @yield('meta')
   <meta name="robots" content="index, follow" />
@@ -103,7 +109,7 @@
   </style>
   <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18340649419"></script>
-    <script>
+    <script nonce="{{ $cspNonce }}">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());

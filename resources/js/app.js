@@ -233,4 +233,15 @@
       io.observe(container);
     }
   }
+
+  // ===== RANKPRO — tracking de conversión en enlaces de WhatsApp =====
+  // Delegado en document para cubrir todos los enlaces wa.me del sitio (actuales y futuros)
+  // sin tener que instrumentar cada botón por separado.
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href*="wa.me"]');
+    if (!link) return;
+    if (window.RankProTracking && typeof window.RankProTracking.trackConversion === 'function') {
+      window.RankProTracking.trackConversion('whatsapp');
+    }
+  });
 })();

@@ -28,12 +28,12 @@ class SecurityHeaders
 
         $csp = implode('; ', [
             "default-src 'self'",
-            "script-src 'self' 'nonce-{$nonce}'",
+            "script-src 'self' 'nonce-{$nonce}' https://www.googletagmanager.com https://rankprosolutions.com.mx",
             "style-src 'self' 'unsafe-inline'",
             "font-src 'self'",
-            "img-src 'self' data: https://images.unsplash.com",
+            "img-src 'self' data: https://images.unsplash.com https://www.google.com https://googleads.g.doubleclick.net",
             "frame-src https://www.google.com",
-            "connect-src 'self'",
+            "connect-src 'self' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://rankprosolutions.com.mx",
             "object-src 'none'",
             "base-uri 'self'",
             "form-action 'self'",
