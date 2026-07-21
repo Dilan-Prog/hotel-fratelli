@@ -29,7 +29,7 @@
     'heroSub' => '1 cama matrimonial · WiFi gratuito · TV',
     'mainImg' => 'images/habitacion19/habitacion19-25.jpg',
     'thumbs' => ['images/habitacion19/habitacion19-8.jpg', 'images/habitacion19/habitacion19-15.jpg', 'images/habitacion19/habitacion19-35.jpg'],
-    'desc' => 'Para 2 personas, 1 cama matrimonial. Perfecta para parejas que prefieren compartir una sola cama amplia.',
+    'desc' => 'Para 2 personas, 1 cama matrimonial. Perfecta para un descanso tranquilo.',
     'feats' => ['1 cama matrimonial', 'Para 2 personas', 'WiFi gratuito', 'TV'],
     'priceAmount' => '833.00',
   ])

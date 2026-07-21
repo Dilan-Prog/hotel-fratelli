@@ -72,7 +72,7 @@
           <div class="cc-body">
             <h3>Doble (cama matrimonial)</h3>
             <div class="cc-feats"><span>2 personas</span><span>1 matrimonial</span></div>
-            <p>Para 2 personas, 1 cama matrimonial. Perfecta para parejas que comparten una sola cama.</p>
+            <p>Para 2 personas, 1 cama matrimonial. Perfecta para un descanso tranquilo.</p>
             <div class="cc-price"><span class="from">Desde</span><span class="amount">$833.00</span><span class="unit">MXN / noche</span></div>
             <a href="{{ route('habitaciones.doble-matrimonial') }}" class="btn btn-gold">Ver habitación</a>
           </div>

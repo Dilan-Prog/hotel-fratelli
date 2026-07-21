@@ -101,6 +101,15 @@
       .hero-meta .k{font-size:20px}
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18339067548"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18339067548');
+  </script>
 
   {{-- Fuentes autohospedadas: precarga directa (sin dependencia de red a Google) --}}
   <link rel="preload" as="font" type="font/woff2" href="{{ asset('fonts/inter-var-latin.woff2') }}" crossorigin>
