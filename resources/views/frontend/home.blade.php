@@ -725,8 +725,7 @@
                             </svg></div>
                         <div class="info-content">
                             <div class="label">Teléfono</div>
-                            <div class="value"><a href="tel:+524492196201" aria-label="Llamar al 449 219 6201">449 219 6201</a><br /><a
-                                    href="tel:+524495963183" aria-label="Llamar al 449 596 3183">449 596 3183</a></div>
+                            <div class="value"><a href="tel:+524492196201" aria-label="Llamar al 449 219 6201">449 219 6201</a></div>
                         </div>
                     </div>
                     <div class="info-row">
@@ -885,15 +884,3 @@
 
 @endsection
 
-@section('footer-fourth-column')
-    <div class="footer-col">
-        <h4>Contacto</h4>
-        <ul>
-            <li><a href="{{ route('hoteles.feria') }}">Cerca Feria San Marcos</a></li>
-            {{-- <li><a href="{{ route('hoteles.economicos') }}">Hoteles económicos</a></li> --}}
-            {{-- <li><a href="{{ route('hoteles.centro') }}">Cerca del centro</a></li> --}}
-            <li><a href="tel:+524492196201">449 219 6201</a></li>
-            <li><a href="mailto:fratelli.hotel@gmail.com">fratelli.hotel@gmail.com</a></li>
-        </ul>
-    </div>
-@endsection

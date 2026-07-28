@@ -29,8 +29,8 @@
         @yield('footer-fourth-column')
       @else
         <div class="footer-col"><h4>Contacto</h4><ul>
+          <li><a href="{{ route('hoteles.feria') }}">Cerca Feria San Marcos</a></li>
           <li><a href="tel:+524492196201">449 219 6201</a></li>
-          <li><a href="tel:+524495963183">449 596 3183</a></li>
           <li><a href="mailto:fratelli.hotel@gmail.com">fratelli.hotel@gmail.com</a></li>
           <li>República de Brasil 627<br/>Las Américas, Aguascalientes</li>
         </ul></div>
