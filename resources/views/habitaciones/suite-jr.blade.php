@@ -18,6 +18,24 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Suite Jr","item":"https://hotelfratelli.com.mx/habitaciones/suite-jr"}]}
 </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Habitación Suite Jr — Hotel Fratelli Aguascalientes",
+  "description": "Para 2 personas, 1 cama Queen. Vista a la ciudad y amplio espacio — el equilibrio entre espacio y precio.",
+  "image": "{{ asset('images/habitacion17/habitacion17-16.jpg') }}",
+  "brand": { "@type": "Brand", "name": "Hotel Fratelli" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://hotelfratelli.com.mx/habitaciones/suite-jr",
+    "priceCurrency": "MXN",
+    "price": "892.50",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
 @endsection
 
 @section('content')

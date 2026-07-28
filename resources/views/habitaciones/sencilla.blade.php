@@ -18,6 +18,24 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Sencilla","item":"https://hotelfratelli.com.mx/habitaciones/sencilla"}]}
 </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Habitación Sencilla — Hotel Fratelli Aguascalientes",
+  "description": "Para 1 persona, 1 cama matrimonial. Espacio funcional y luz natural — ideal para viajeros de negocios o quienes buscan comodidad sin pagar de más.",
+  "image": "{{ asset('images/habitacion21/habitacion21-1.jpg') }}",
+  "brand": { "@type": "Brand", "name": "Hotel Fratelli" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://hotelfratelli.com.mx/habitaciones/sencilla",
+    "priceCurrency": "MXN",
+    "price": "714.00",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
 @endsection
 
 @section('content')

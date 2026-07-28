@@ -18,6 +18,24 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Doble (cama matrimonial)","item":"https://hotelfratelli.com.mx/habitaciones/doble-matrimonial"}]}
 </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Habitación Doble (cama matrimonial) — Hotel Fratelli Aguascalientes",
+  "description": "Para 2 personas, 1 cama matrimonial. Perfecta para un descanso tranquilo.",
+  "image": "{{ asset('images/habitacion19/habitacion19-25.jpg') }}",
+  "brand": { "@type": "Brand", "name": "Hotel Fratelli" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://hotelfratelli.com.mx/habitaciones/doble-matrimonial",
+    "priceCurrency": "MXN",
+    "price": "833.00",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
 @endsection
 
 @section('content')

@@ -1,0 +1,92 @@
+{
+  "_readme": "Plantillas generadas por la auditoría de SCHEMA-REPORT.md. Ninguna se aplicó al proyecto. Los datos (nombre, dirección, teléfono, coordenadas, precios) son los reales del sitio, no placeholders — están listos para copiar/pegar tal cual, salvo el campo 'url' de cada bloque Hotel que debe cambiarse por la URL real de la página donde se pegue.",
+
+  "hotel_schema_para_paginas_sin_entidad": {
+    "_uso": "Pegar este bloque en /hoteles-centro, /hoteles-cerca-feria-san-marcos y /hoteles-economicos-aguascalientes. Cambiar SOLO el campo 'url' por la URL real de cada página. Es el mismo bloque ya validado y en producción en el home.",
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Hotel Fratelli",
+    "description": "Hotel boutique en Aguascalientes con 24 habitaciones, recepción 24 horas, WiFi gratuito y ubicación a 5 minutos de la Feria de San Marcos.",
+    "url": "https://hotelfratelli.com.mx/CAMBIAR-POR-LA-URL-REAL-DE-ESTA-PAGINA",
+    "telephone": "+524492196201",
+    "email": "fratelli.hotel@gmail.com",
+    "image": "https://hotelfratelli.com.mx/images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "República de Brasil 627, Fracc. Las Américas",
+      "addressLocality": "Aguascalientes",
+      "addressRegion": "Aguascalientes",
+      "postalCode": "20230",
+      "addressCountry": "MX"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 21.8778, "longitude": -102.2962 },
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "WiFi gratuito", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Recepción 24 horas", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Balcón", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Espacio libre de humo", "value": true }
+    ],
+    "petsAllowed": false,
+    "numberOfRooms": 24,
+    "checkinTime": "14:00",
+    "checkoutTime": "12:00",
+    "openingHours": "Mo-Su 00:00-24:00",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "3.8", "reviewCount": "277" },
+    "sameAs": [
+      "https://www.facebook.com/HotelFratelli",
+      "https://www.booking.com/hotel/mx/fratelli.html"
+    ]
+  },
+
+  "product_offer_template_paginas_habitacion": {
+    "_uso": "Ejemplo con los datos reales de /habitaciones/sencilla. Repetir este mismo patrón en las otras 6 páginas de habitación, cambiando name/description/price/url/image por los de cada habitación.",
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Habitación Sencilla — Hotel Fratelli Aguascalientes",
+    "description": "Habitación sencilla con cama matrimonial, espacio funcional y luz natural. Ideal para viajeros de negocios.",
+    "image": "https://hotelfratelli.com.mx/images/habitacion21/habitacion21-1.jpg",
+    "brand": { "@type": "Brand", "name": "Hotel Fratelli" },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://hotelfratelli.com.mx/habitaciones/sencilla",
+      "priceCurrency": "MXN",
+      "price": "714.00",
+      "priceValidUntil": "CAMBIAR-por-fecha-real-ej-2026-12-31",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+
+  "product_offer_datos_reales_por_habitacion": {
+    "_uso": "Referencia rápida de precio/URL real de cada una de las 7 habitaciones, para no tener que ir a buscarlos de nuevo al implementar el patrón de arriba en cada página.",
+    "sencilla": { "url": "/habitaciones/sencilla", "price": "714.00" },
+    "doble": { "url": "/habitaciones/doble", "price": "952.00" },
+    "doble-matrimonial": { "url": "/habitaciones/doble-matrimonial", "price": "833.00" },
+    "suite-jr": { "url": "/habitaciones/suite-jr", "price": "892.50" },
+    "master-suite": { "url": "/habitaciones/master-suite", "price": "952.00" },
+    "triple": { "url": "/habitaciones/triple", "price": "CONFIRMAR — no verificado en esta auditoría" },
+    "cuadruple": { "url": "/habitaciones/cuadruple", "price": "CONFIRMAR — no verificado en esta auditoría" }
+  },
+
+  "contactpage_para_contacto": {
+    "_uso": "Bloque adicional para /contacto — se agrega junto al BreadcrumbList existente, no lo reemplaza.",
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contacto | Hotel Fratelli Aguascalientes",
+    "url": "https://hotelfratelli.com.mx/contacto",
+    "mainEntity": {
+      "@type": "Hotel",
+      "name": "Hotel Fratelli",
+      "telephone": "+524492196201",
+      "email": "fratelli.hotel@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "República de Brasil 627, Fracc. Las Américas",
+        "addressLocality": "Aguascalientes",
+        "addressRegion": "Aguascalientes",
+        "postalCode": "20230",
+        "addressCountry": "MX"
+      }
+    }
+  }
+}

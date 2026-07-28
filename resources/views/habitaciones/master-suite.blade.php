@@ -18,6 +18,24 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Máster Suite","item":"https://hotelfratelli.com.mx/habitaciones/master-suite"}]}
 </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Habitación Máster Suite — Hotel Fratelli Aguascalientes",
+  "description": "Para 2 personas, 1 cama King. Nuestra habitación insignia, con los acabados más premium del hotel.",
+  "image": "{{ asset('images/habitacion22/habitacion22-1.jpg') }}",
+  "brand": { "@type": "Brand", "name": "Hotel Fratelli" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://hotelfratelli.com.mx/habitaciones/master-suite",
+    "priceCurrency": "MXN",
+    "price": "952.00",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
 @endsection
 
 @section('content')
@@ -28,7 +46,7 @@
     'eyebrow' => 'Para 2 personas · Desde $952.00 MXN',
     'heroSub' => '1 cama King · Acabados premium · WiFi gratuito',
     'mainImg' => 'images/habitacion22/habitacion22-1.jpg',
-    'thumbs' => ['images/habitacion22/habitacion22-25.jpg', 'images/habitacion24/habitacion24-22.jpg', 'images/habitacion24/habitacion24-8.jpg'],
+    'thumbs' => ['images/habitacion22/habitacion22-25.jpg', 'images/habitacion24/habitacion24-22.jpg', 'images/habitacion22/habitacion22-8.jpg'],
     'desc' => 'Para 2 personas, 1 cama King. Nuestra habitación insignia, con los acabados más premium del hotel.',
     'feats' => ['1 cama King', 'Para 2 personas', 'Baño premium', 'WiFi gratuito'],
     'priceAmount' => '952.00',

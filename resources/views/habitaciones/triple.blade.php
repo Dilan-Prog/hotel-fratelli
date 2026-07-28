@@ -18,6 +18,24 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Habitaciones","item":"https://hotelfratelli.com.mx/habitaciones"},{"@type":"ListItem","position":3,"name":"Triple","item":"https://hotelfratelli.com.mx/habitaciones/triple"}]}
 </script>
+  {{-- Sin campo "image": todavía no hay fotos reales de esta habitación (ver nota arriba). --}}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Habitación Triple — Hotel Fratelli Aguascalientes",
+  "description": "Para 3 personas, 1 cama matrimonial y 1 individual. Pensada para familias pequeñas o grupos de amigos.",
+  "brand": { "@type": "Brand", "name": "Hotel Fratelli" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://hotelfratelli.com.mx/habitaciones/triple",
+    "priceCurrency": "MXN",
+    "price": "1249.50",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
 @endsection
 
 {{-- NOTA: la Habitación 24 (antes usada aquí como referencia temporal) fue confirmada

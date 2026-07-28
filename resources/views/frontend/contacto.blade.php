@@ -23,6 +23,28 @@
   "itemListElement": [{"@type":"ListItem","position":1,"name":"Inicio","item":"https://hotelfratelli.com.mx/hoteles-en-aguascalientes"},{"@type":"ListItem","position":2,"name":"Contacto","item":"https://hotelfratelli.com.mx/contacto"}]
 }
 </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contacto | Hotel Fratelli Aguascalientes",
+  "url": "https://hotelfratelli.com.mx/contacto",
+  "mainEntity": {
+    "@type": "Hotel",
+    "name": "Hotel Fratelli",
+    "telephone": "+524492196201",
+    "email": "fratelli.hotel@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "República de Brasil 627, Fracc. Las Américas",
+      "addressLocality": "Aguascalientes",
+      "addressRegion": "Aguascalientes",
+      "postalCode": "20230",
+      "addressCountry": "MX"
+    }
+  }
+}
+</script>
 @endsection
 
 @section('content')

@@ -24,6 +24,44 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Hotel Fratelli",
+  "description": "Hotel boutique en Aguascalientes con 24 habitaciones, recepción 24 horas, WiFi gratuito y ubicación a 5 minutos de la Feria de San Marcos.",
+  "url": "https://hotelfratelli.com.mx/hoteles-economicos-aguascalientes",
+  "telephone": "+524492196201",
+  "email": "fratelli.hotel@gmail.com",
+  "image": "{{ asset('images/hotel-frontal/hotel-fratelli-mejorada-dia.jpg') }}",
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "República de Brasil 627, Fracc. Las Américas",
+    "addressLocality": "Aguascalientes",
+    "addressRegion": "Aguascalientes",
+    "postalCode": "20230",
+    "addressCountry": "MX"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 21.8778, "longitude": -102.2962 },
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "WiFi gratuito", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Recepción 24 horas", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Balcón", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Espacio libre de humo", "value": true }
+  ],
+  "petsAllowed": false,
+  "numberOfRooms": 24,
+  "checkinTime": "14:00",
+  "checkoutTime": "12:00",
+  "openingHours": "Mo-Su 00:00-24:00",
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "3.8", "reviewCount": "277" },
+  "sameAs": [
+    "https://www.facebook.com/HotelFratelli",
+    "https://www.booking.com/hotel/mx/fratelli.html"
+  ]
+}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     {
