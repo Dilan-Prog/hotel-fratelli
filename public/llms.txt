@@ -1,0 +1,33 @@
+# Hotel Fratelli Aguascalientes
+
+> Hotel boutique con 24 habitaciones en Aguascalientes, México, a 5 minutos de la Feria Nacional de San Marcos y 10 minutos del Centro Histórico. WiFi gratuito, recepción 24 horas, tarifas desde $714.00 MXN/noche. Reservas por WhatsApp al +52 449 219 6201.
+
+## Datos de contacto
+
+- Dirección: República de Brasil 627, Fraccionamiento Las Américas, C.P. 20230, Aguascalientes, México
+- Teléfono / WhatsApp: +52 449 219 6201
+- Email: fratelli.hotel@gmail.com
+- Check-in: 14:00 · Check-out: 12:00 · Recepción: 24 horas
+
+## Habitaciones
+
+- [Sencilla](https://hotelfratelli.com.mx/habitaciones/sencilla): 1 persona, 1 cama matrimonial. Desde $714.00 MXN/noche.
+- [Doble (cama matrimonial)](https://hotelfratelli.com.mx/habitaciones/doble-matrimonial): 2 personas, 1 cama matrimonial. Desde $833.00 MXN/noche.
+- [Doble (camas separadas)](https://hotelfratelli.com.mx/habitaciones/doble): 2 personas, camas separadas. Desde $952.00 MXN/noche.
+- [Suite Jr](https://hotelfratelli.com.mx/habitaciones/suite-jr): 2 personas, 1 cama Queen, vista a la ciudad. Desde $892.50 MXN/noche.
+- [Máster Suite](https://hotelfratelli.com.mx/habitaciones/master-suite): 2 personas, 1 cama King, acabados premium. Desde $952.00 MXN/noche.
+- [Triple](https://hotelfratelli.com.mx/habitaciones/triple): 3 personas, 1 cama matrimonial y 1 individual. Desde $1,249.50 MXN/noche.
+- [Cuádruple](https://hotelfratelli.com.mx/habitaciones/cuadruple): 4 personas, 2 camas matrimoniales. Desde $1,606.50 MXN/noche.
+- [Todas las habitaciones](https://hotelfratelli.com.mx/habitaciones)
+
+## Páginas informativas
+
+- [Inicio](https://hotelfratelli.com.mx/hoteles-en-aguascalientes)
+- [Contacto](https://hotelfratelli.com.mx/contacto)
+- [Hoteles cerca de la Feria de San Marcos](https://hotelfratelli.com.mx/hoteles-cerca-feria-san-marcos)
+- [Hoteles económicos en Aguascalientes](https://hotelfratelli.com.mx/hoteles-economicos-aguascalientes)
+- [Hoteles cerca del Centro Histórico de Aguascalientes](https://hotelfratelli.com.mx/hoteles-centro)
+
+## Sitemap
+
+- https://hotelfratelli.com.mx/sitemap.xml
