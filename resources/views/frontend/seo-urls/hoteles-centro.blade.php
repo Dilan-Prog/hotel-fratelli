@@ -54,7 +54,7 @@
   "openingHours": "Mo-Su 00:00-24:00",
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "3.8", "reviewCount": "277" },
   "sameAs": [
-    "https://www.facebook.com/HotelFratelli",
+    "https://www.facebook.com/hotelfratelliags",
     "https://www.booking.com/hotel/mx/fratelli.html"
   ]
 }

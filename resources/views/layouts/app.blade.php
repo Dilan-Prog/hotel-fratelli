@@ -117,6 +117,17 @@
     gtag('config', 'AW-18340649419');
     </script>
 
+  {{-- Trackeo de llamadas de Google Ads (Número Dinámico / DNI): reemplaza en tiempo real
+       el "449 219 6201" visible en el sitio por un número de reenvío de Google para
+       visitantes que llegan desde un clic de anuncio, y mide si la llamada conectó y
+       su duración. Acción de conversión "Llamada (449 219 6201)" creada en Ads el
+       2026-09-28. Complementa (no reemplaza) el tracking de clic de RankPro en app.js. --}}
+    <script nonce="{{ $cspNonce }}">
+    gtag('config', 'AW-18340649419/GjdnCP7E3IkdEMuzwKlE', {
+      'phone_conversion_number': '449 219 6201'
+    });
+    </script>
+
   {{-- Fuentes autohospedadas: precarga directa (sin dependencia de red a Google) --}}
   <link rel="preload" as="font" type="font/woff2" href="{{ asset('fonts/inter-var-latin.woff2') }}" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="{{ asset('fonts/playfair-display-var-latin.woff2') }}" crossorigin>

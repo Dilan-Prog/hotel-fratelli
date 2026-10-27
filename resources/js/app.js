@@ -234,14 +234,20 @@
     }
   }
 
-  // ===== RANKPRO — tracking de conversión en enlaces de WhatsApp =====
-  // Delegado en document para cubrir todos los enlaces wa.me del sitio (actuales y futuros)
-  // sin tener que instrumentar cada botón por separado.
-  document.addEventListener('click', (e) => {
-    const link = e.target.closest('a[href*="wa.me"]');
-    if (!link) return;
-    if (window.RankProTracking && typeof window.RankProTracking.trackConversion === 'function') {
+  // ===== RANKPRO — tracking de clic en WhatsApp y teléfono (click-to-call) =====
+  // Listener delegado según el snippet oficial de RankPro (doc "06 · Tracking de
+  // conversiones"): cubre wa.me, api.whatsapp.com, el esquema whatsapp: y tel:,
+  // incluyendo botones añadidos después (flotantes, pop-ups). Mide el clic
+  // (intención), no que la llamada conectó ni cuánto duró — eso lo mide el Número
+  // Dinámico de Google (DNI) configurado en app.blade.php.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href]');
+    if (!a || !window.RankProTracking) return;
+    var href = a.getAttribute('href') || '';
+    if (/wa\.me|api\.whatsapp\.com|whatsapp:/i.test(href)) {
       window.RankProTracking.trackConversion('whatsapp');
+    } else if (/^tel:/i.test(href)) {
+      window.RankProTracking.trackConversion('llamada');
     }
   });
 })();
